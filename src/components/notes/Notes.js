@@ -2,13 +2,12 @@
 import React from 'react';
 import styled, { css } from 'react-emotion';
 import Panel from 'src/components/styled/Panel';
-import Editor from 'src/components/editor/MarkdownEditor';
+import MarkdownEditor from 'src/components/editor/MarkdownEditor';
 
 export type Props = {};
 
 const panelStyles = css`
   width: 100%;
-  height: 720px;
   position: sticky;
   top: 15px;
 `;
@@ -34,10 +33,9 @@ export default class Notes extends React.Component {
     return (
       <Wrapper data-test="notes">
         <Panel data-test="panel" css={panelStyles}>
-          <Editor
-            onChange={this.handleChange}
-            value={this.state.value}
-            initialValue="fred"
+          <MarkdownEditor
+            placeholder="Notes written here will be saved in the browser."
+            autosave={{ enabled: true, delay: 500, uniqueId: 'notes-text' }}
           />
         </Panel>
       </Wrapper>
