@@ -8,6 +8,7 @@ Path of Exile is an ARPG game made by Grinding Gear Games, [check it out here](h
 ## Development
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+- Install dependencies with `npm install`
 - For local development: `npm run dev`
 - To generate a production build into the `/docs` directory: `npm run build` (we use github-pages for hosting)
 - Run Jest tests: `npm run test`
