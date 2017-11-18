@@ -57,7 +57,9 @@ class App extends React.Component {
 
             <Header />
             {this.state.showNotes ? (
-              <FlexWrapper css={`align-items: stretch;`}>
+              <FlexWrapper
+                css={`align-items: stretch; position: relative; z-index: 1`}
+              >
                 <Left css={`flex-grow: 1;`}>
                   <Routes />
                 </Left>

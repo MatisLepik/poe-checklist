@@ -21,6 +21,15 @@ const Wrapper = styled.div`
     }
   }
 
+  .editor-toolbar.fullscreen {
+    background-color: ${COLORS.BACKGROUND};
+
+    &::before,
+    &::after {
+      display: none;
+    }
+  }
+
   .editor-preview {
     background-color: ${COLORS.BACKGROUND_PANEL};
   }
