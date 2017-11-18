@@ -1,0 +1,60 @@
+/**
+ * We use emotion to style our components in JS.
+ * However, sometimes we need some global classnames (generic stuff like text-center) to avoid crazy
+ * amounts of boilerplate in the CSS. Don't put anything component specific here.
+ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: black url('./images/wp1.jpg') top center no-repeat;
+  color: #eee;
+  font-size: 16px;
+  font-family: Montserrat, 'Open Sans', Verdana, sans-serif;
+}
+
+.reset-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  outline: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background: none;
+  border: none;
+  display: inline-block;
+  vertical-align: middle;
+  outline: 0;
+  text-align: center;
+}
+
+.full-height {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+p {
+  line-height: 1.4;
+}
