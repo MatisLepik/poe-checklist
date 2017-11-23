@@ -10,6 +10,7 @@ export type Props = {};
 const Wrapper = styled.label`
   position: relative;
   cursor: pointer;
+  display: flex;
 `;
 
 const Input = styled.input`
@@ -52,6 +53,7 @@ const StatusDisplay = styled.div`
   height: 17px;
   background-color: transparent;
   border: 1px solid ${rgba(COLORS.FOREGROUND, 0.5)};
+  flex-shrink: 0;
 
   + * {
     margin-left: 7px;

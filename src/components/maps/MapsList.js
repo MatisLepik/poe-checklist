@@ -56,12 +56,7 @@ export class MapList extends React.Component {
 
   renderCheck = row => {
     return (
-      <TableCheck
-        minWidth={500}
-        id={row.id}
-        value={row.isChecked}
-        checkable={CHECKABLE.MAP}
-      />
+      <TableCheck id={row.id} value={row.isChecked} checkable={CHECKABLE.MAP} />
     );
   };
 
@@ -72,6 +67,7 @@ export class MapList extends React.Component {
   render() {
     return (
       <DataTable
+        minWidth={570}
         onRowClick={this.handleRowClick}
         mainCol="name"
         onHeadingClick={this.props.onSort}

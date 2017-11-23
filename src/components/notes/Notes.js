@@ -31,11 +31,11 @@ export default class Notes extends React.Component {
 
   render() {
     return (
-      <Wrapper data-test="notes">
+      <Wrapper data-test="notes" className="notes">
         <Panel data-test="panel" css={panelStyles}>
           <MarkdownEditor
             placeholder="Notes written here will be saved in the browser."
-            autosave={{ enabled: true, delay: 500, uniqueId: 'notes-text' }}
+            autoSave="notes-text"
           />
         </Panel>
       </Wrapper>

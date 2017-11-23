@@ -15,6 +15,7 @@ const NavItem = styled.li`
   height: 100%;
   position: relative;
   transition: background-color 150ms;
+  text-align: center;
 
   &::before {
     content: '';
@@ -28,6 +29,10 @@ const NavItem = styled.li`
 
   &:first-child::before {
     display: none;
+  }
+
+  @media (max-width: 400px) {
+    font-size: 12px;
   }
 `;
 

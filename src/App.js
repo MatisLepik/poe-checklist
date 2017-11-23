@@ -8,7 +8,7 @@ import Notes from 'src/components/notes/Notes';
 import React from 'react';
 import Routes from 'src/components/Routes';
 import GoodEssences from 'src/components/essences/GoodEssences';
-import styled from 'react-emotion';
+import styled, { css } from 'react-emotion';
 
 const SiteContainer = styled.div`
   padding-bottom: 50px;
@@ -58,12 +58,28 @@ class App extends React.Component {
             <Header />
             {this.state.showNotes ? (
               <FlexWrapper
+                maxWidth={1235}
+                onMobile={css`
+                  > *:last-child {
+                    order: -1;
+                    width: 100%;
+                  }
+
+                  .notes {
+                    width: 100%;
+                    padding-right: 7px;
+
+                    .CodeMirror {
+                      height: 300px;
+                    }
+                  }
+                `}
                 css={`align-items: stretch; position: relative; z-index: 1`}
               >
-                <Left css={`flex-grow: 1;`}>
+                <Left data-test="left" css={`flex-grow: 1; max-width: 100%;`}>
                   <Routes />
                 </Left>
-                <Right>
+                <Right data-test="right">
                   <Notes />
                 </Right>
               </FlexWrapper>
