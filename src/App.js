@@ -7,7 +7,7 @@ import Header from 'src/components/header/Header';
 import Notes from 'src/components/notes/Notes';
 import React from 'react';
 import Routes from 'src/components/Routes';
-import GoodEssences from 'src/components/essences/GoodEssences';
+import Drawers from 'src/components/drawers/Drawers';
 import styled, { css } from 'react-emotion';
 
 const SiteContainer = styled.div`
@@ -86,7 +86,7 @@ class App extends React.Component {
             ) : (
               <Routes />
             )}
-            <GoodEssences />
+            <Drawers />
           </SiteContainer>
         </HashRouter>
       </Provider>
