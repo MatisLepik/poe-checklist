@@ -1,9 +1,8 @@
 /* @flow */
-// import React from 'react';
-import styled from 'react-emotion';
-import COLORS from 'src/styles/COLORS';
 import { rgba } from 'polished';
-import { MAX_WIDTH } from 'src/components/styled/MaxWidthWrapper';
+import COLORS from 'src/styles/COLORS';
+import SIZES from 'src/styles/SIZES';
+import styled from 'react-emotion';
 
 export type Props = {};
 
@@ -12,7 +11,7 @@ export default styled.div`
   border-radius: 3px;
   padding: 15px;
 
-  @media (max-width: ${MAX_WIDTH}px) {
+  @media (max-width: ${SIZES.MAX_WIDTH}px) {
     padding: 7px;
   }
 `;

@@ -4,12 +4,20 @@ import SimpleMDE from 'simplemde';
 import styled from 'react-emotion';
 import COLORS from 'src/styles/COLORS';
 import 'simplemde/dist/simplemde.min.css';
+import SIZES from 'src/styles/SIZES';
 
 export type Props = {};
 
 const Wrapper = styled.div`
   .CodeMirror {
-    height: 62vh;
+    height: 564px;
+    height: calc(
+      100vh -
+        ${SIZES.PAGE_CONTAINER_PADDING +
+          SIZES.HEADER_HEIGHT +
+          SIZES.DRAWER_HEIGHT * 2 +
+          130}px
+    );
   }
 
   .CodeMirror {
@@ -19,6 +27,10 @@ const Wrapper = styled.div`
     &-fullscreen {
       background-color: ${COLORS.BACKGROUND};
     }
+  }
+
+  .CodeMirror-placeholder {
+    opacity: 0.2;
   }
 
   .editor-toolbar.fullscreen {

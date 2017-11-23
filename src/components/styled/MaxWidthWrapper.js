@@ -1,10 +1,9 @@
 import styled from 'react-emotion';
-
-export const MAX_WIDTH = 1080;
+import SIZES from 'src/styles/SIZES';
 
 export default styled.div`
   margin: 0 auto;
-  max-width: ${MAX_WIDTH}px;
+  max-width: ${SIZES.MAX_WIDTH}px;
   padding-left: 15px;
   padding-right: 15px;
   height: 100%;

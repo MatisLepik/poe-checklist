@@ -1,13 +1,13 @@
 /* @flow */
+import SIZES from 'src/styles/SIZES';
 import styled from 'react-emotion';
-import { MAX_WIDTH } from 'src/components/styled/MaxWidthWrapper';
 
 export const FlexWrapper = styled.div`
   display: flex;
   align-items: ${p => (p.centerVertically ? 'center' : 'flex-start')};
   justify-content: space-between;
 
-  @media (max-width: ${p => p.maxWidth || MAX_WIDTH}px) {
+  @media (max-width: ${p => p.maxWidth || SIZES.MAX_WIDTH}px) {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;

@@ -2,10 +2,9 @@
 import React from 'react';
 import styled from 'react-emotion';
 import { Link } from 'react-router-dom';
+import SIZES from 'src/styles/SIZES';
 
 export type Props = {};
-
-export const LINK_SIZE = 18;
 
 const Wrapper = styled.div`
   position: absolute;
@@ -15,8 +14,8 @@ const Wrapper = styled.div`
 `;
 
 const InfoIcon = styled.img`
-  width: ${LINK_SIZE}px;
-  height: ${LINK_SIZE}px;
+  width: ${SIZES.LINK_SIZE}px;
+  height: ${SIZES.LINK_SIZE}px;
   background-size: contain;
 
   @media (max-width: 600px) {

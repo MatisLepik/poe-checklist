@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'react-emotion';
-import { MAX_WIDTH } from 'src/components/styled/MaxWidthWrapper';
+import SIZES from 'src/styles/SIZES';
 
 const Wrapper = styled.div`
   padding: 15px;
@@ -9,7 +9,7 @@ const Wrapper = styled.div`
     margin-top: 0;
   }
 
-  @media (max-width: ${MAX_WIDTH}px) {
+  @media (max-width: ${SIZES.MAX_WIDTH}px) {
     padding: 7px;
   }
 `;

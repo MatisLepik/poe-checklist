@@ -1,0 +1,11 @@
+/* @flow */
+
+export default {
+  DRAWER_HEIGHT: 68,
+  NOTES_WIDTH: 500,
+  HEADER_HEIGHT: 70,
+  LINK_SIZE: 18,
+  PAGE_CONTAINER_PADDING: 50,
+  MAX_WIDTH: 1080,
+  BP_HIDE_DRAWERS: 1125,
+};
