@@ -23,6 +23,7 @@ const Wrapper = styled.div`
   cursor: auto;
   text-transform: none;
   font-size: 16px;
+  font-weight: 400;
 `;
 
 export default class Notes extends React.Component {
@@ -45,7 +46,9 @@ export default class Notes extends React.Component {
           css={panelStyles}
         >
           <MarkdownEditor
-            placeholder="Notes written here will be saved in the browser."
+            placeholder={`Notes written here will be saved in the browser.
+You can use this to plan out your character progression, and refer to it while leveling
+            `}
             autoSave="notes-text"
           />
         </Panel>

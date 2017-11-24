@@ -34,8 +34,13 @@ const Wrapper = styled.div`
     }
   }
 
+  hr {
+    border-color: ${COLORS.BORDER_GRAY};
+  }
+
   .CodeMirror-placeholder {
     opacity: 0.2;
+    font-style: italic;
   }
 
   .editor-toolbar.fullscreen {
