@@ -5,8 +5,13 @@ import styled from 'react-emotion';
 import COLORS from 'src/styles/COLORS';
 import 'simplemde/dist/simplemde.min.css';
 import SIZES from 'src/styles/SIZES';
+import { connect } from 'react-redux';
+import { setNotesValue } from 'src/redux/modules/ui';
+import debounce from 'lodash/debounce';
 
 export type Props = {};
+
+const DEBOUNCE_SPEED = 200;
 
 const Wrapper = styled.div`
   .CodeMirror {
@@ -77,7 +82,7 @@ const Wrapper = styled.div`
   }
 `;
 
-export default class MarkdownEditor extends React.Component {
+export class MarkdownEditor extends React.Component {
   props: Props;
 
   static defaultProps = {
@@ -100,12 +105,38 @@ export default class MarkdownEditor extends React.Component {
     ],
   };
 
+  save = () => {
+    this.props.setNotesValue(this.mde.value());
+  };
+
+  handleKeyDown = (cm, evt) => {
+    if (evt.key === 's' && evt.ctrlKey) {
+      evt.preventDefault();
+      this.save();
+    }
+  };
+
   componentDidMount() {
     const { autoSave, ...rest } = this.props;
 
-    console.log('autoSave', autoSave);
-
     this.mde = new SimpleMDE({ ...rest, element: this.el });
+
+    if (autoSave) {
+      this.mde.codemirror.on(
+        'change',
+        debounce(() => {
+          this.save();
+        }, DEBOUNCE_SPEED)
+      );
+
+      this.mde.codemirror.on('blur', this.save);
+      this.mde.codemirror.on('keydown', this.handleKeyDown);
+    }
+  }
+
+  componentWillUnmount() {
+    this.mde.toTextArea();
+    this.mde = null;
   }
 
   shouldComponentUpdate() {
@@ -115,8 +146,18 @@ export default class MarkdownEditor extends React.Component {
   render() {
     return (
       <Wrapper>
-        <textarea ref={el => (this.el = el)} />
+        <textarea
+          ref={el => (this.el = el)}
+          defaultValue={this.props.defaultValue || ''}
+        />
       </Wrapper>
     );
   }
 }
+
+export default connect(
+  state => ({
+    defaultValue: state.ui.notes.defaultValue,
+  }),
+  { setNotesValue }
+)(MarkdownEditor);

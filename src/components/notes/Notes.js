@@ -21,6 +21,8 @@ const Wrapper = styled.div`
   height: 100%;
   text-align: left;
   cursor: auto;
+  text-transform: none;
+  font-size: 16px;
 `;
 
 export default class Notes extends React.Component {
