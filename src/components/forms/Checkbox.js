@@ -46,9 +46,7 @@ const Input = styled.input`
 
 const StatusDisplay = styled.div`
   display: inline-block;
-  vertical-align: baseline;
-  position: relative;
-  top: 3px;
+  vertical-align: middle;
   width: 17px;
   height: 17px;
   background-color: transparent;
