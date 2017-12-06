@@ -43,9 +43,9 @@ export default {
   },
   '5': {
     id: 5,
-    zone: 'The Hedge Maze',
+    zone: 'The Imperial Gardens',
     act: 3,
-    location: 'Entrance in The Imperial Gardens',
+    location: '',
     difficulty: DIFFICULTIES.NORMAL,
   },
   '6': {
