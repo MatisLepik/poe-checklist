@@ -31,8 +31,9 @@ export default class MapsPage extends React.Component {
                 </p>
                 <p>
                   <strong>
-                    PS! This list has been updated for 3.1, but might still be
-                    inaccurate. <br />
+                    PS! This list has been updated for 3.1, but is still
+                    incomplete. More information will be added as it becomes
+                    available. <br />
                     <Link to="/about">Let me know</Link> if you find any
                     inaccuracies.
                   </strong>
