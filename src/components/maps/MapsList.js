@@ -76,7 +76,8 @@ export class MapList extends React.Component {
         sortOrder={this.props.sortOrder}
         renderEmpty={this.renderEmpty}
         contentRowClass={row =>
-          row.isChecked ? checkedListRowStyles : uncheckedListRowStyles}
+          row.isChecked ? checkedListRowStyles : uncheckedListRowStyles
+        }
         cols={[
           {
             name: 'Tier',
@@ -106,7 +107,9 @@ export class MapList extends React.Component {
           {
             name: this.renderClearTable,
             className: 'text-center',
-            headingClass: css`justify-content: center;`,
+            headingClass: css`
+              justify-content: center;
+            `,
             render: this.renderCheck,
             isSortable: false,
           },
@@ -125,6 +128,12 @@ export default compose(
       if (filters.hideNonAtlasMaps && !map.isOnAtlas) return false;
       if (filters.hideNonShaperOrbMaps && !map.givesShaperOrb) return false;
       if (filters.hideUniques && map.isUnique) return false;
+      if (
+        filters.hidePreWarForAtlasMaps &&
+        (typeof map.releaseVersion !== 'number' || map.releaseVersion < 3.1)
+      )
+        return false;
+
       return true;
     },
   }),

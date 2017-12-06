@@ -16,6 +16,7 @@ const initialState = {
     hideNonShaperOrbMaps: false,
     hideNonAtlasMaps: false,
     hideCheckedMaps: false,
+    hidePreWarForAtlasMaps: false,
   },
   passives: {
     hideCheckedQuests: false,

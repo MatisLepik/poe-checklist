@@ -52,6 +52,15 @@ export class MapFilters extends React.Component {
             Hide non-atlas maps
           </Checkbox>
         </InputWrapper>
+        <InputWrapper>
+          <Checkbox
+            name="hidePreWarForAtlasMaps"
+            checked={!!this.props.hidePreWarForAtlasMaps}
+            onChange={this.handleToggle}
+          >
+            Hide old maps (pre War for the Atlas)
+          </Checkbox>
+        </InputWrapper>
       </div>
     );
   }
