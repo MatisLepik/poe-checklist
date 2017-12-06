@@ -13,7 +13,7 @@ function getEnhancer() {
 
 export default function getStore() {
   const store = createStore(getReducer(), getEnhancer());
-  persistStore(store);
+  const persistor = persistStore(store);
 
   if (process.env.NODE_ENV === 'development' && module.hot) {
     module.hot.accept('./getReducer', () => {
@@ -21,5 +21,5 @@ export default function getStore() {
     });
   }
 
-  return store;
+  return { store, persistor };
 }

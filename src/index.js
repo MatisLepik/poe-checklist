@@ -5,14 +5,20 @@ import App from 'src/App';
 import createStore from 'src/redux/createStore';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { PersistGate } from 'redux-persist/es/integration/react';
 // import registerServiceWorker from 'src/registerServiceWorker';
 
-const store = createStore();
+const { store, persistor } = createStore();
 
 const rootEl = document.getElementById('root');
 
 function render(Component) {
-  ReactDOM.render(<Component store={store} />, rootEl);
+  ReactDOM.render(
+    <PersistGate loading={<div />} persistor={persistor}>
+      <Component store={store} />
+    </PersistGate>,
+    rootEl
+  );
 }
 
 render(App);

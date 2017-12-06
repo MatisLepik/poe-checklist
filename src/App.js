@@ -1,5 +1,6 @@
 import { HashRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
+import { validateVersion } from 'src/redux/modules/checklist';
 import COLORS from 'src/styles/COLORS';
 import Drawers from 'src/components/drawers/Drawers';
 import EventListener from 'react-event-listener';
@@ -24,6 +25,11 @@ const SiteContainer = styled.div`
 `;
 
 class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.props.store.dispatch(validateVersion());
+  }
+
   render() {
     return (
       <Provider store={this.props.store}>
