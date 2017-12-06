@@ -28,14 +28,15 @@ export default class AboutPage extends React.Component {
 
             <p css={`margin-top: 25px`}>
               If you have any questions, contact me at{' '}
-              <a href={EMAIL}>{EMAIL}</a> or{' '}
+              <a href={EMAIL}>{EMAIL}</a>, on the{' '}
               <a
                 href="https://github.com/MatisLepik/poe-checklist"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                on the Github page
-              </a>
+                Github page
+              </a>{' '}
+              or on <a href="https://www.reddit.com/user/MatisLepik">Reddit</a>.
             </p>
           </PageDescription>
         </Panel>
