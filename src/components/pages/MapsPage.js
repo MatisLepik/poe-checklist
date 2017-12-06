@@ -8,6 +8,7 @@ import PageContainer from 'src/components/pages/PageContainer';
 import PageDescription from 'src/components/styled/PageDescription';
 import Panel from 'src/components/styled/Panel';
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export type Props = {};
 
@@ -27,6 +28,14 @@ export default class MapsPage extends React.Component {
                   the atlas. <br />Hide the non-atlas maps to keep track of
                   which maps you've bought/completed, or hide maps that don't
                   drop a Shaper's Orb when you're shaping your atlas.
+                </p>
+                <p>
+                  <strong>
+                    PS! This list has been updated for 3.1, but might still be
+                    inaccurate. <br />
+                    <Link to="/about">Let me know</Link> if you find any
+                    inaccuracies.
+                  </strong>
                 </p>
               </PageDescription>
             </Left>
