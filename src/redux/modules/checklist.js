@@ -12,7 +12,7 @@ export const CHECKABLE = {
 
 const initialState = {
   versions: {
-    [CHECKABLE.MAP]: 2,
+    [CHECKABLE.MAP]: 2.1,
     [CHECKABLE.PASSIVE]: 1,
     [CHECKABLE.TRIAL]: 1,
     [CHECKABLE.PANTHEON]: 1,
