@@ -976,7 +976,7 @@ export default {
     tier: 4,
     isUnique: true,
     level: -1,
-    isOnAtlas: true,
+    isOnAtlas: false,
     givesShaperOrb: null,
     sextantCoverageIncludingSelf: -1,
   },
@@ -1390,7 +1390,7 @@ export default {
   '137': {
     id: 137,
     name: 'Vaal Temple Map',
-    tier: 9, // TODO: Revisit, might be inaccurate
+    tier: 16,
     isUnique: false,
     level: -1,
     isOnAtlas: true,
@@ -1705,7 +1705,7 @@ export default {
   },
   '167': {
     id: 167,
-    name: 'Unannounced Map',
+    name: 'Lava Lake Map',
     tier: 15,
     isUnique: false,
     level: -1,
@@ -1716,7 +1716,7 @@ export default {
   },
   '168': {
     id: 168,
-    name: 'Unannounced Map',
+    name: 'Basilica Map',
     tier: 15,
     isUnique: false,
     level: -1,
@@ -1727,7 +1727,7 @@ export default {
   },
   '169': {
     id: 169,
-    name: 'Unannounced Map',
+    name: 'Sunken City Map',
     tier: 15,
     isUnique: false,
     level: -1,
@@ -1738,19 +1738,8 @@ export default {
   },
   '170': {
     id: 170,
-    name: 'Unannounced Map',
+    name: 'Carcass Map',
     tier: 15,
-    isUnique: false,
-    level: -1,
-    isOnAtlas: true,
-    givesShaperOrb: null,
-    sextantCoverageIncludingSelf: -1,
-    releaseVersion: 3.1,
-  },
-  '171': {
-    id: 171,
-    name: 'Unannounced Map',
-    tier: 16,
     isUnique: false,
     level: -1,
     isOnAtlas: true,
