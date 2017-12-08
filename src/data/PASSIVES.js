@@ -164,6 +164,6 @@ export default {
     quest: 'Map to Tsoatha',
     points: 1,
     act: 10,
-    objective: 'Find The Deardrop in Reliquary',
+    objective: 'Find The Teardrop in Reliquary',
   },
 };
