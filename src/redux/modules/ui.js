@@ -5,7 +5,7 @@ const SET_NOTES_VALUE = 'redux/ui/SET_NOTES_VALUE';
 
 const initialState = {
   drawers: {
-    essences: false,
+    essences: true,
     notes: false,
   },
   notes: {

@@ -7,7 +7,7 @@ import styled from 'react-emotion';
 export type Props = {};
 
 export default styled.div`
-  background-color: ${rgba(COLORS.BACKGROUND_PANEL, 0.85)};
+  background-color: ${rgba(COLORS.BACKGROUND_PANEL, 0.9)};
   border-radius: 3px;
   padding: 15px;
 
