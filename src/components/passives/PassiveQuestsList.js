@@ -17,8 +17,15 @@ import React from 'react';
 import sortableList from 'src/hoc/sortableList';
 import TableCheck from 'src/components/TableCheck';
 import ClearTable from 'src/components/tables/ClearTable';
+import styled from 'react-emotion';
 
 export type Props = {};
+
+const PreReq = styled.div`
+  font-size: 12px;
+  font-style: italic;
+  margin-bottom: 4px;
+`;
 
 export class PassiveQuestsList extends React.Component {
   props: Props;
@@ -40,7 +47,8 @@ export class PassiveQuestsList extends React.Component {
       <div css={`text-align: center; width: 100%;`}>
         <p>
           <i>
-            No quests to show. If you completed them all - congratulations!<br />
+            No quests to show. If you completed them all - congratulations!<br
+            />
             <br />
             <small>
               If you want to reset the table, press the X button in the top
@@ -66,6 +74,15 @@ export class PassiveQuestsList extends React.Component {
     <ClearTable name="passive quests" onClear={this.props.onClear} />
   );
 
+  renderObjective = col => {
+    return (
+      <div>
+        {col.prerequisite && <PreReq>Prerequisite: {col.prerequisite}</PreReq>}
+        {col.objective}
+      </div>
+    );
+  };
+
   render() {
     return (
       <DataTable
@@ -78,32 +95,42 @@ export class PassiveQuestsList extends React.Component {
         sortOrder={this.props.sortOrder}
         renderEmpty={this.renderEmpty}
         contentRowClass={row =>
-          row.isChecked ? checkedListRowStyles : uncheckedListRowStyles}
+          row.isChecked ? checkedListRowStyles : uncheckedListRowStyles
+        }
         cols={[
           {
             name: 'Act',
             key: 'act',
             isSortable: true,
             component: NumberCell,
-            className: css`text-align: center;`,
+            className: css`
+              text-align: center;
+            `,
           },
           {
             name: 'Quest',
             key: 'quest',
             component: PassiveQuestName,
             isSortable: true,
-            className: css`white-space: nowrap;`,
+            className: css`
+              white-space: nowrap;
+            `,
           },
           {
             name: 'Objective',
             key: 'objective',
             isSortable: true,
-            className: css`font-size: 14px;`,
+            className: css`
+              font-size: 14px;
+            `,
+            render: this.renderObjective,
           },
           {
             name: this.renderClearTable,
             className: 'text-center',
-            headingClass: css`justify-content: center;`,
+            headingClass: css`
+              justify-content: center;
+            `,
             render: this.renderCheck,
             isSortable: false,
           },

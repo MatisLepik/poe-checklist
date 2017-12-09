@@ -147,10 +147,12 @@ export default {
   },
   '19': {
     id: 19,
-    quest: 'The Storm Blade',
+    quest: 'Queen of the Sands',
     points: 1,
     act: 9,
-    objective: 'Find the Storm Blade in the Desert and kill the waves of mobs',
+    prerequisite:
+      'The Storm Blade (Find the Storm Blade in The Vastiri Desert and kill the waves of mobs)',
+    objective: 'Kill Shakari in The Sand Pit (entrance in The Oasis)',
   },
   '20': {
     id: 20,
