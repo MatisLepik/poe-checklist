@@ -15,7 +15,7 @@ const initialState = {
     [CHECKABLE.MAP]: 2.1,
     [CHECKABLE.PASSIVE]: 1,
     [CHECKABLE.TRIAL]: 1,
-    [CHECKABLE.PANTHEON]: 1,
+    [CHECKABLE.PANTHEON]: 2,
   },
 };
 
