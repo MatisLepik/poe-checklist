@@ -7,7 +7,7 @@ export default {
   '1': {
     id: 1,
     name: 'Puruna, the Challenger',
-    map: 49,
+    map: 48,
   },
   '2': {
     id: 2,
