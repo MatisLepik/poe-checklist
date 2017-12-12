@@ -40,7 +40,8 @@ export class PantheonsList extends React.Component {
       <div css={`text-align: center; width: 100%;`}>
         <p>
           <i>
-            No pantheons to show. If you completed them all - congratulations!<br />
+            No pantheons to show. If you completed them all - congratulations!<br
+            />
             <br />
             <small>
               If you want to reset the table, press the X button in the top
@@ -66,14 +67,19 @@ export class PantheonsList extends React.Component {
     <div>{row.effects.map((effect, i) => <div key={i}>{effect}</div>)}</div>
   );
 
-  renderMapName = row => <MapName {...row.map} hideShaperOrbs />;
+  renderMapName = row => {
+    return row.bossName;
+    // return <MapName {...row.map} hideShaperOrbs />;
+  };
 
   renderClearTable = col => (
     <ClearTable name="pantheons" onClear={this.props.onClear} />
   );
 
   render() {
-    const noWrap = css`white-space: nowrap;`;
+    const noWrap = css`
+      white-space: nowrap;
+    `;
     return (
       <DataTable
         onRowClick={this.handleRowClick}
@@ -85,7 +91,8 @@ export class PantheonsList extends React.Component {
         sortOrder={this.props.sortOrder}
         renderEmpty={this.renderEmpty}
         contentRowClass={row =>
-          row.isChecked ? checkedListRowStyles : uncheckedListRowStyles}
+          row.isChecked ? checkedListRowStyles : uncheckedListRowStyles
+        }
         cols={[
           {
             name: 'God',
@@ -98,10 +105,12 @@ export class PantheonsList extends React.Component {
             key: 'effects',
             render: this.renderEffects,
             isSortable: true,
-            className: css`font-size: 14px;`,
+            className: css`
+              font-size: 14px;
+            `,
           },
           {
-            name: 'Map',
+            name: 'Boss',
             key: 'map',
             isSortable: true,
             className: noWrap,
@@ -110,7 +119,9 @@ export class PantheonsList extends React.Component {
           {
             name: this.renderClearTable,
             className: 'text-center',
-            headingClass: css`justify-content: center;`,
+            headingClass: css`
+              justify-content: center;
+            `,
             render: this.renderCheck,
             isSortable: false,
           },
