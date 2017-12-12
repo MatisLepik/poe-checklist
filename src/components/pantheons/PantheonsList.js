@@ -68,8 +68,9 @@ export class PantheonsList extends React.Component {
   );
 
   renderMapName = row => {
-    return row.bossName;
-    // return <MapName {...row.map} hideShaperOrbs />;
+    if (row.map) return <MapName {...row.map} hideShaperOrbs />;
+
+    return <small>Map unknown: {row.bossName}</small>;
   };
 
   renderClearTable = col => (

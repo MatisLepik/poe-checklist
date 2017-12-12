@@ -2,22 +2,22 @@ export default {
   '0': {
     id: 0,
     name: 'The Forgotten Soldier',
-    map: -1,
+    map: 30,
   },
   '1': {
     id: 1,
     name: 'Puruna, the Challenger',
-    map: -1,
+    map: 49,
   },
   '2': {
     id: 2,
     name: 'Nassar, Lion of the Seas',
-    map: -1,
+    map: 132,
   },
   '3': {
     id: 3,
     name: 'Thraxia',
-    map: -1,
+    map: 38,
   },
   '4': {
     id: 4,
@@ -27,12 +27,12 @@ export default {
   '5': {
     id: 5,
     name: "Lycius, Midnight's Howl",
-    map: -1,
+    map: 95,
   },
   '6': {
     id: 6,
     name: 'Shadow of the Vaal',
-    map: -1,
+    map: 33,
   },
   '7': {
     id: 7,
@@ -47,7 +47,7 @@ export default {
   '9': {
     id: 9,
     name: 'Arachnoxia',
-    map: -1,
+    map: 35,
   },
   '10': {
     id: 10,
@@ -57,7 +57,7 @@ export default {
   '11': {
     id: 11,
     name: 'Armala, the Widow',
-    map: -1,
+    map: 131,
   },
   '12': {
     id: 12,
@@ -72,7 +72,7 @@ export default {
   '14': {
     id: 14,
     name: 'Mephod, the Earth Scorcher',
-    map: -1,
+    map: 105,
   },
   '15': {
     id: 15,
@@ -82,12 +82,12 @@ export default {
   '16': {
     id: 16,
     name: "Erebix, Light's Bane",
-    map: -1,
+    map: 49,
   },
   '17': {
     id: 17,
     name: 'Drek, Apex Hunter',
-    map: -1,
+    map: 41,
   },
   '18': {
     id: 18,
