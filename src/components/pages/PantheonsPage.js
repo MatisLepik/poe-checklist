@@ -41,7 +41,7 @@ export default class PantheonsPage extends React.Component {
                     pantheon upgrades
                   </a>.
                 </p>
-                <p><strong>PS! This list is outdated as of 3.1. It will hopefully be updated soon.</strong></p>
+                <p><strong>PS! Corresponding maps aren't known as of 3.1 patch. It will hopefully be updated soon.</strong></p>
               </PageDescription>
             </Left>
             <Right data-test="right">

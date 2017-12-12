@@ -218,4 +218,19 @@ export default {
       },
     ],
   },
+  '11': {
+    id: 11,
+    name: 'Soul of Shakari',
+    type: PANTHEON_TYPES.MINOR,
+    mainEffects: [
+      '5% reduced Chaos Damage taken',
+      '25% reduced Chaos Damage over Time taken while in a Caustic Cloud',
+    ],
+    upgrades: [
+      {
+        effects: ['Immune to poison'],
+        boss: 19,
+      },
+    ],
+  },
 };
