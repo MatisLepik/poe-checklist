@@ -22,7 +22,7 @@ export default {
   '4': {
     id: 4,
     name: "Sebbert, Crescent's Point",
-    map: -1,
+    map: 73,
   },
   '5': {
     id: 5,
