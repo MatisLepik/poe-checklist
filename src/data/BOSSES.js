@@ -42,7 +42,7 @@ export default {
   '8': {
     id: 8,
     name: 'Suncaller Asha',
-    map: -1,
+    map: 115,
   },
   '9': {
     id: 9,
@@ -62,7 +62,7 @@ export default {
   '12': {
     id: 12,
     name: 'Stalker of the Endless Dunes',
-    map: -1,
+    map: 127,
   },
   '13': {
     id: 13,
