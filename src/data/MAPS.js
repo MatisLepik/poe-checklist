@@ -1653,7 +1653,7 @@ export default {
   '159': {
     id: 159,
     name: 'Hall of Grandmasters',
-    tier: 9,
+    tier: 11,
     isUnique: true,
     level: 76,
     isOnAtlas: true,
