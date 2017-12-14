@@ -1584,7 +1584,7 @@ export default {
   '152': {
     id: 152,
     name: 'Whakawairua Tuahu',
-    tier: 6,
+    tier: 4,
     isUnique: true,
     level: 73,
     isOnAtlas: true,
