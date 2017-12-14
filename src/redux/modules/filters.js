@@ -13,7 +13,6 @@ const TOGGLE_FILTER = 'redux/filters/TOGGLE_FILTER';
 const initialState = {
   maps: {
     hideUniques: false,
-    hideNonShaperOrbMaps: false,
     hideNonAtlasMaps: false,
     hideCheckedMaps: false,
     hidePreWarForAtlasMaps: false,

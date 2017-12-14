@@ -27,15 +27,6 @@ export class MapFilters extends React.Component {
         </InputWrapper>
         <InputWrapper>
           <Checkbox
-            name="hideNonShaperOrbMaps"
-            checked={!!this.props.hideNonShaperOrbMaps}
-            onChange={this.handleToggle}
-          >
-            Hide maps that don't drop Shaper's Orb
-          </Checkbox>
-        </InputWrapper>
-        <InputWrapper>
-          <Checkbox
             name="hideUniques"
             checked={!!this.props.hideUniques}
             onChange={this.handleToggle}
