@@ -1555,7 +1555,7 @@ export default {
   '149': {
     id: 149,
     name: 'Vaults of Atziri',
-    tier: 3,
+    tier: 8,
     isUnique: true,
     level: 70,
     isOnAtlas: true,
@@ -1565,7 +1565,7 @@ export default {
   '150': {
     id: 150,
     name: 'Hallowed Ground',
-    tier: 4,
+    tier: 6,
     isUnique: true,
     level: 71,
     isOnAtlas: true,
@@ -1712,7 +1712,7 @@ export default {
   '165': {
     id: 165,
     name: "Oba's Cursed Trove",
-    tier: 11,
+    tier: 12,
     isUnique: true,
     level: 78,
     isOnAtlas: true,
