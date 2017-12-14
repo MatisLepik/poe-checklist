@@ -1604,7 +1604,7 @@ export default {
   '154': {
     id: 154,
     name: 'Maelström of Chaos',
-    tier: 8,
+    tier: 6,
     isUnique: true,
     level: 75,
     isOnAtlas: true,
@@ -1623,7 +1623,7 @@ export default {
   '156': {
     id: 156,
     name: "The Coward's Trial",
-    tier: 9,
+    tier: 10,
     isUnique: true,
     level: 76,
     isOnAtlas: true,
@@ -1702,7 +1702,7 @@ export default {
   '164': {
     id: 164,
     name: "Caer Blaidd, Wolfpack's Den",
-    tier: 10,
+    tier: 7,
     isUnique: true,
     level: 77,
     isOnAtlas: true,
