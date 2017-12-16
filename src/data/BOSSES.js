@@ -37,7 +37,7 @@ export default {
   '7': {
     id: 7,
     name: "Jorus, Sky's Edge",
-    map: -1,
+    map: 80,
   },
   '8': {
     id: 8,
@@ -52,7 +52,7 @@ export default {
   '10': {
     id: 10,
     name: 'Shock and Horror',
-    map: -1,
+    map: 110,
   },
   '11': {
     id: 11,
@@ -67,7 +67,7 @@ export default {
   '13': {
     id: 13,
     name: 'Varhesh, Shimmering Aberration',
-    map: -1,
+    map: 117,
   },
   '14': {
     id: 14,
@@ -77,7 +77,7 @@ export default {
   '15': {
     id: 15,
     name: 'Tahsin, Warmaker',
-    map: -1,
+    map: 84,
   },
   '16': {
     id: 16,
@@ -92,11 +92,11 @@ export default {
   '18': {
     id: 18,
     name: 'Gorulis, Will-Thief',
-    map: -1,
+    map: 63,
   },
   '19': {
     id: 19,
     name: 'Terror of the Infinite Drifts',
-    map: -1,
+    map: 120,
   },
 };
