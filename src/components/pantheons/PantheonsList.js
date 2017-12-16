@@ -17,8 +17,14 @@ import React from 'react';
 import sortableList from 'src/hoc/sortableList';
 import TableCheck from 'src/components/TableCheck';
 import ClearTable from 'src/components/tables/ClearTable';
+import styled from 'react-emotion';
 
 export type Props = {};
+
+const BossName = styled.div`
+  font-size: 12px;
+  padding-left: 20px;
+`;
 
 export class PantheonsList extends React.Component {
   props: Props;
@@ -68,9 +74,12 @@ export class PantheonsList extends React.Component {
   );
 
   renderMapName = row => {
-    if (row.map) return <MapName {...row.map} hideShaperOrbs />;
-
-    return <small>Map unknown: {row.bossName}</small>;
+    return (
+      <div>
+        {row.map && <MapName {...row.map} hideShaperOrbs />}
+        <BossName>{row.bossName}</BossName>
+      </div>
+    );
   };
 
   renderClearTable = col => (
