@@ -1580,7 +1580,7 @@ export default {
     level: 75,
     isOnAtlas: true,
     givesShaperOrb: false,
-    sextantCoverageIncludingSelf: 5,
+    sextantCoverageIncludingSelf: -1,
   },
   '150': {
     id: 150,
@@ -1590,7 +1590,7 @@ export default {
     level: 73,
     isOnAtlas: true,
     givesShaperOrb: false,
-    sextantCoverageIncludingSelf: 5,
+    sextantCoverageIncludingSelf: -1,
   },
   '151': {
     id: 151,
@@ -1609,7 +1609,7 @@ export default {
     level: 71,
     isOnAtlas: true,
     givesShaperOrb: false,
-    sextantCoverageIncludingSelf: 5,
+    sextantCoverageIncludingSelf: -1,
   },
   '153': {
     id: 153,
@@ -1619,7 +1619,7 @@ export default {
     level: 74,
     isOnAtlas: true,
     givesShaperOrb: false,
-    sextantCoverageIncludingSelf: 5,
+    sextantCoverageIncludingSelf: -1,
   },
   '154': {
     id: 154,
@@ -1629,7 +1629,7 @@ export default {
     level: 73,
     isOnAtlas: true,
     givesShaperOrb: false,
-    sextantCoverageIncludingSelf: 4,
+    sextantCoverageIncludingSelf: -1,
   },
   '155': {
     id: 155,
@@ -1648,7 +1648,7 @@ export default {
     level: 77,
     isOnAtlas: true,
     givesShaperOrb: false,
-    sextantCoverageIncludingSelf: 7,
+    sextantCoverageIncludingSelf: -1,
   },
   '157': {
     id: 157,
@@ -1658,7 +1658,7 @@ export default {
     level: 76,
     isOnAtlas: true,
     givesShaperOrb: false,
-    sextantCoverageIncludingSelf: 6,
+    sextantCoverageIncludingSelf: -1,
   },
   '158': {
     id: 158,
@@ -1668,7 +1668,7 @@ export default {
     level: 79,
     isOnAtlas: true,
     givesShaperOrb: false,
-    sextantCoverageIncludingSelf: 5,
+    sextantCoverageIncludingSelf: -1,
   },
   '159': {
     id: 159,
@@ -1678,7 +1678,7 @@ export default {
     level: 78,
     isOnAtlas: true,
     givesShaperOrb: false,
-    sextantCoverageIncludingSelf: 6,
+    sextantCoverageIncludingSelf: -1,
   },
   '160': {
     id: 160,
@@ -1688,7 +1688,7 @@ export default {
     level: 75,
     isOnAtlas: true,
     givesShaperOrb: false,
-    sextantCoverageIncludingSelf: 2,
+    sextantCoverageIncludingSelf: -1,
   },
   '161': {
     id: 161,
@@ -1698,7 +1698,7 @@ export default {
     level: 76,
     isOnAtlas: true,
     givesShaperOrb: 9,
-    sextantCoverageIncludingSelf: 5,
+    sextantCoverageIncludingSelf: -1,
   },
   '162': {
     id: 162,
@@ -1717,7 +1717,7 @@ export default {
     level: 75,
     isOnAtlas: true,
     givesShaperOrb: 10,
-    sextantCoverageIncludingSelf: 7,
+    sextantCoverageIncludingSelf: -1,
   },
   '164': {
     id: 164,
@@ -1727,7 +1727,7 @@ export default {
     level: 74,
     isOnAtlas: true,
     givesShaperOrb: false,
-    sextantCoverageIncludingSelf: 6,
+    sextantCoverageIncludingSelf: -1,
   },
   '165': {
     id: 165,
@@ -1737,7 +1737,7 @@ export default {
     level: 79,
     isOnAtlas: true,
     givesShaperOrb: 8,
-    sextantCoverageIncludingSelf: 6,
+    sextantCoverageIncludingSelf: -1,
   },
   '166': {
     id: 166,
@@ -1747,7 +1747,7 @@ export default {
     level: 79,
     isOnAtlas: true,
     givesShaperOrb: 9,
-    sextantCoverageIncludingSelf: 6,
+    sextantCoverageIncludingSelf: -1,
   },
   '167': {
     id: 167,
