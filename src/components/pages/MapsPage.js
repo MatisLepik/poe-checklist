@@ -8,7 +8,6 @@ import PageContainer from 'src/components/pages/PageContainer';
 import PageDescription from 'src/components/styled/PageDescription';
 import Panel from 'src/components/styled/Panel';
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 export type Props = {};
 
@@ -30,13 +29,7 @@ export default class MapsPage extends React.Component {
                   drop a Shaper's Orb when you're shaping your atlas.
                 </p>
                 <p>
-                  <strong>
-                    PS! This list has been updated for 3.1, but is still
-                    incomplete. More information will be added as it becomes
-                    available. <br />
-                    <Link to="/about">Let me know</Link> if you find any
-                    inaccuracies.
-                  </strong>
+                  Click on the picture icon to bring up an image of the map.
                 </p>
               </PageDescription>
             </Left>

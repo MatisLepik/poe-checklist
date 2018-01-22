@@ -12,6 +12,7 @@ import {
 } from 'src/styles/listRowStyles';
 import filterableList from 'src/hoc/filterableList';
 import MapName from 'src/components/maps/MapName';
+import PictureThumbnail from 'src/components/maps/PictureThumbnail';
 import NumberCell from 'src/components/tables/NumberCell';
 import React from 'react';
 import sortableList from 'src/hoc/sortableList';
@@ -90,6 +91,17 @@ export class MapList extends React.Component {
             className: 'text-center',
             component: NumberCell,
             isSortable: true,
+          },
+          {
+            name: 'Pic',
+            key: 'picture',
+            component: PictureThumbnail,
+            className: 'text-center',
+            headingClass: css`
+              justify-content: center;
+              align-items: center;
+            `,
+            isSortable: false,
           },
           {
             name: 'Map',
