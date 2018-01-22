@@ -1342,6 +1342,7 @@ export default {
     level: 83,
     isOnAtlas: true,
     sextantCoverageIncludingSelf: -1,
+    noPicture: true,
   },
   '139': {
     id: 139,
@@ -1501,6 +1502,7 @@ export default {
     level: 76,
     isOnAtlas: true,
     sextantCoverageIncludingSelf: -1,
+    noPicture: true,
   },
   '158': {
     id: 158,
@@ -1510,6 +1512,7 @@ export default {
     level: 79,
     isOnAtlas: true,
     sextantCoverageIncludingSelf: -1,
+    noPicture: true,
   },
   '159': {
     id: 159,
@@ -1519,6 +1522,7 @@ export default {
     level: 78,
     isOnAtlas: true,
     sextantCoverageIncludingSelf: -1,
+    noPicture: true,
   },
   '160': {
     id: 160,
@@ -1556,6 +1560,7 @@ export default {
     isOnAtlas: true,
     givesShaperOrb: 10,
     sextantCoverageIncludingSelf: -1,
+    noPicture: true,
   },
   '164': {
     id: 164,
@@ -1575,6 +1580,7 @@ export default {
     isOnAtlas: true,
     givesShaperOrb: 8,
     sextantCoverageIncludingSelf: -1,
+    noPicture: true,
   },
   '166': {
     id: 166,
@@ -1611,5 +1617,6 @@ export default {
     level: 76,
     isOnAtlas: true,
     releaseVersion: 3.1,
+    noPicture: true,
   },
 };

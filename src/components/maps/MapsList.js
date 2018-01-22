@@ -37,7 +37,12 @@ export class MapList extends React.Component {
 
   renderEmpty() {
     return (
-      <div css={`text-align: center; width: 100%;`}>
+      <div
+        css={`
+          text-align: center;
+          width: 100%;
+        `}
+      >
         <p>
           <i>
             No maps to show. If you completed them all - congratulations!<br />
