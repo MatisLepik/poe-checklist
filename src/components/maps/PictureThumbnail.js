@@ -14,6 +14,10 @@ const SvgWrapper = styled.div`
   display: table-cell;
   vertical-align: middle;
 
+  &:hover svg {
+    transform: scale(1.2);
+  }
+
   &:hover svg g {
     fill: ${COLORS.FOREGROUND_HIGHLIGHT};
   }
@@ -23,6 +27,7 @@ const Svg = styled.svg`
   width: 28px;
   height: auto;
   display: block;
+  transition: transform 150ms;
 
   g {
     transition: fill 150ms;
@@ -47,7 +52,9 @@ export default class PictureThumbnail extends React.Component {
   };
 
   render() {
-    if (this.props.noPicture === true) return null;
+    const fileName = fileNamify(this.props.name);
+
+    if (!__MAP_PICTURES__[fileName]) return null;
 
     return [
       <SvgWrapper key="1" onClick={this.handleSvgClick}>
@@ -63,7 +70,7 @@ export default class PictureThumbnail extends React.Component {
           key="2"
           isOpen={this.state.isOpen}
           onClose={this.handleModalClose}
-          src={getPublicUrl(`maps/${fileNamify(this.props.name)}`)}
+          src={getPublicUrl(`maps/${fileName}`)}
         />
       ),
     ];

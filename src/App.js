@@ -20,7 +20,7 @@ const SiteContainer = styled.div`
   }
 
   svg {
-    transition: fill 150ms;
+    transition: transform 75ms, fill 150ms;
   }
 `;
 
