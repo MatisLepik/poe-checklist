@@ -2,6 +2,7 @@
 import React from 'react';
 import Modal from 'src/components/modals/Modal';
 import styled, { css } from 'react-emotion';
+import Spinner from 'src/components/Spinner';
 
 export type Props = {};
 
@@ -27,6 +28,14 @@ const modalStyles = css`
   }
 `;
 
+const SpinnerContainer = styled.div`
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+`;
+
 export default class MapPictureModal extends React.Component {
   props: Props;
 
@@ -34,6 +43,9 @@ export default class MapPictureModal extends React.Component {
     const { src, ...rest } = this.props;
     return (
       <Modal {...rest} className={modalStyles}>
+        <SpinnerContainer>
+          <Spinner />
+        </SpinnerContainer>
         <Img src={src} alt="Map" />
       </Modal>
     );
