@@ -16,12 +16,6 @@ describe('Static data', () => {
       expect(mapsArr.filter(map => map.isUnique)).toHaveLength(20);
     });
 
-    it("should have 15 maps that give shaper's orb", () => {
-      expect(
-        mapsArr.filter(map => typeof map.givesShaperOrb === 'number')
-      ).toHaveLength(15);
-    });
-
     it('should have 10 maps with no tier', () => {
       expect(mapsArr.filter(map => map.tier === null)).toHaveLength(10);
     });

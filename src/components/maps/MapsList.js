@@ -143,7 +143,6 @@ export default compose(
     filter: (map, filters) => {
       if (filters.hideCheckedMaps && map.isChecked) return false;
       if (filters.hideNonAtlasMaps && !map.isOnAtlas) return false;
-      if (filters.hideNonShaperOrbMaps && !map.givesShaperOrb) return false;
       if (filters.hideUniques && map.isUnique) return false;
       if (
         filters.hidePreWarForAtlasMaps &&

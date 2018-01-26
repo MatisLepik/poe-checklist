@@ -1346,6 +1346,7 @@ export default {
   '139': {
     id: 139,
     name: "Esh's Breachstone",
+    zoneName: "Esh's Domain",
     tier: 0,
     isUnique: false,
     level: 70,
@@ -1354,6 +1355,7 @@ export default {
   '140': {
     id: 140,
     name: "Tul's Breachstone",
+    zoneName: "Tul's Domain",
     tier: 0,
     isUnique: false,
     level: 70,
@@ -1362,6 +1364,7 @@ export default {
   '141': {
     id: 141,
     name: "Xoph's Breachstone",
+    zoneName: "Xoph's Domain",
     tier: 0,
     isUnique: false,
     level: 70,
@@ -1378,6 +1381,7 @@ export default {
   '143': {
     id: 143,
     name: "Uul-Netol's Breachstone",
+    zoneName: "Uul-Netol's Domain",
     tier: 0,
     isUnique: false,
     level: 75,
@@ -1410,6 +1414,7 @@ export default {
   '147': {
     id: 147,
     name: "Chayula's Breachstone",
+    zoneName: "Chayula's Domain",
     tier: 0,
     isUnique: false,
     level: 80,
@@ -1536,7 +1541,6 @@ export default {
     isUnique: true,
     level: 76,
     isOnAtlas: true,
-    givesShaperOrb: 9,
     sextantCoverageIncludingSelf: -1,
   },
   '162': {
@@ -1554,7 +1558,6 @@ export default {
     isUnique: true,
     level: 75,
     isOnAtlas: true,
-    givesShaperOrb: 10,
     sextantCoverageIncludingSelf: -1,
   },
   '164': {
@@ -1573,7 +1576,6 @@ export default {
     isUnique: true,
     level: 79,
     isOnAtlas: true,
-    givesShaperOrb: 8,
     sextantCoverageIncludingSelf: -1,
   },
   '166': {
@@ -1583,7 +1585,6 @@ export default {
     isUnique: true,
     level: 79,
     isOnAtlas: true,
-    givesShaperOrb: 9,
     sextantCoverageIncludingSelf: -1,
   },
   '167': {

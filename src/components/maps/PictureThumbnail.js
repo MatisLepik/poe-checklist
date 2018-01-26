@@ -52,7 +52,9 @@ export default class PictureThumbnail extends React.Component {
   };
 
   render() {
-    const fileName = fileNamify(this.props.name);
+    const fileName = this.props.zoneName
+      ? fileNamify(this.props.zoneName)
+      : fileNamify(this.props.name);
 
     if (!__MAP_PICTURES__[fileName]) return null;
 
