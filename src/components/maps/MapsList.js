@@ -109,12 +109,13 @@ export class MapList extends React.Component {
             component: MapName,
             isSortable: true,
           },
-          {
-            name: 'Sextants',
-            key: 'sextantCoverageIncludingSelf',
-            className: 'text-center',
-            isSortable: true,
-          },
+          // Disabled until we have the data
+          // {
+          //   name: 'Sextants',
+          //   key: 'sextantCoverageIncludingSelf',
+          //   className: 'text-center',
+          //   isSortable: true,
+          // },
           {
             name: 'Level',
             key: 'level',
