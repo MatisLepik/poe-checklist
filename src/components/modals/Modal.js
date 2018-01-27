@@ -64,9 +64,14 @@ export default class Modal extends React.Component {
     return ReactDOM.createPortal(
       <span onClick={this.handleWrapperClick} data-test="modal-portal-root">
         {this.props.isOpen && (
-          <span>
+          <span
+            onClick={this.props.onClose}
+            css={`
+              cursor: pointer;
+            `}
+          >
             <EventListener target="window" onKeyDown={this.handleKeyDown} />
-            <Overlay onClick={this.props.onClose} data-test="modal-overlay" />
+            <Overlay data-test="modal-overlay" />
             <Content className={this.props.className} data-test="modal-content">
               {this.props.children}
             </Content>
