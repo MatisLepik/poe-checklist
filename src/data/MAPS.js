@@ -1375,14 +1375,6 @@ export default {
     level: 75,
     isOnAtlas: false,
   },
-  '145': {
-    id: 145,
-    name: 'The Eternal Labyrinth',
-    tier: 0,
-    isUnique: false,
-    level: 75,
-    isOnAtlas: false,
-  },
   '146': {
     id: 146,
     name: 'The Alluring Abyss',
