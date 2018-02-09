@@ -55,11 +55,14 @@ const linkStyles = css`
   }
 `;
 
-const ExactLink = ({ to, children }) => (
-  <NavLink exact css={linkStyles} className="full-height" to={to}>
+const ExactLink = ({ children, ...rest }) => (
+  <NavLink exact css={linkStyles} className="full-height" {...rest}>
     {children}
   </NavLink>
 );
+
+const isMapPageActive = (match, location) =>
+  !!match || location.pathname === '/maps';
 
 export default class Nav extends React.Component {
   props: Props;
@@ -71,10 +74,12 @@ export default class Nav extends React.Component {
         data-test="nav"
       >
         <NavItem className="full-height">
-          <ExactLink to="/">Passive quests</ExactLink>
+          <ExactLink isActive={isMapPageActive} to="/">
+            Maps
+          </ExactLink>
         </NavItem>
         <NavItem className="full-height">
-          <ExactLink to="/maps">Maps</ExactLink>
+          <ExactLink to="/passives">Passive quests</ExactLink>
         </NavItem>
         <NavItem className="full-height">
           <ExactLink to="/pantheons">Pantheons</ExactLink>

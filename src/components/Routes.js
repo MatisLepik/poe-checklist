@@ -16,7 +16,7 @@ export class Routes extends React.Component {
     if (this.props.location !== prevProps.location) {
       window.gtag &&
         window.gtag('config', 'GA_TRACKING_ID', {
-          page_path: '/new-page.html',
+          page_path: '/',
         });
     }
   }
@@ -24,7 +24,7 @@ export class Routes extends React.Component {
   render() {
     return (
       <Switch>
-        <Route exact path="/" component={PassiveQuestsPage} />
+        <Route exact path="/" component={MapsPage} />
         <Route exact path="/maps" component={MapsPage} />
         <Route exact path="/trials" component={TrialsPage} />
         <Route exact path="/pantheons" component={PantheonsPage} />
