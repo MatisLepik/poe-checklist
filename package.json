@@ -37,6 +37,7 @@
     "jest": "20.0.4",
     "lodash": "^4.17.4",
     "marked": "^0.3.12",
+    "node-fetch": "^2.0.0",
     "normalize-css": "^2.3.1",
     "object-assign": "4.1.1",
     "polished": "^1.9.0",
