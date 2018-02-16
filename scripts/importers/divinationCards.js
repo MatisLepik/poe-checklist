@@ -8,6 +8,7 @@
 const importer = require('./wikiImporter');
 const fs = require('fs');
 const path = require('path');
+const prettier = require('prettier');
 
 console.log('Importing...');
 
@@ -74,8 +75,21 @@ function sortByMaps(cards) {
   return output;
 }
 
+/**
+ * Creates an es6 module file that default exports the data.
+ */
 function writeToDisc(data) {
-  const fileContents = `export default ${JSON.stringify(data, null, 2)}; \n`;
-  fs.writeFileSync(FILE_NAME, fileContents);
-  return data;
+  return new Promise(resolve => {
+    prettier
+      .resolveConfig(path.resolve(__dirname, '..', '..', '.prettierrc'))
+      .then(opts => {
+        const fileContents = prettier.format(
+          `export default ${JSON.stringify(data, null, 2)}; \n`,
+          opts
+        );
+        fs.writeFile(FILE_NAME, fileContents, () => {
+          resolve(data);
+        });
+      });
+  });
 }
