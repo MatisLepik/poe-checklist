@@ -163,9 +163,9 @@ export default {
   },
   '21': {
     id: 21,
-    quest: 'Map to Tsoatha',
+    quest: 'Vilenta\'s Vengeance',
     points: 1,
     act: 10,
-    objective: 'Find The Teardrop in Reliquary',
+    objective: 'Kill Vilenta in The Control Blocks (entrance on the south side of The Ravaged Square)',
   },
 };
