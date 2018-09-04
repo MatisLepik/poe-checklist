@@ -32,7 +32,7 @@ export class PantheonsFilters extends React.Component {
 
 export default connect(
   state => ({
-    ...state.filters.passives,
+    ...state.filters.pantheons,
   }),
   { toggleFilter }
 )(PantheonsFilters);
