@@ -43,7 +43,7 @@ export default class MapsPage extends React.Component {
               <MapFilters version={this.props.version} />
             </Right>
           </FlexWrapper>
-          <MapsList list={this.props.maps} />
+          <MapsList list={this.props.maps} version={this.props.version} />
         </Panel>
       </PageContainer>
     );

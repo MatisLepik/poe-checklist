@@ -37,7 +37,7 @@ export default ({ pool, filter } = {}) => Component =>
           return original;
         }
 
-        return original.filter(map => filter(map, filters));
+        return original.filter(map => filter(map, filters, this.props));
       }
 
       render() {
