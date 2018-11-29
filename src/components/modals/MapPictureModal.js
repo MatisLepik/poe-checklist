@@ -8,6 +8,7 @@ export type Props = {};
 
 const Img = styled.img`
   /* object-fit: contain; */
+  transform: translateZ(0);
   max-width: 100%;
   max-height: 100%;
 `;
