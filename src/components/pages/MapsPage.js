@@ -14,6 +14,11 @@ export type Props = {};
 export default class MapsPage extends React.Component {
   props: Props;
 
+  static defaultProps = {
+    maps: MAPS,
+    version: 3.4,
+  };
+
   render() {
     return (
       <PageContainer page="maps">
@@ -31,13 +36,14 @@ export default class MapsPage extends React.Component {
                 <p>
                   Click on the picture icon to bring up an image of the map.
                 </p>
+                {this.props.extraDescription}
               </PageDescription>
             </Left>
             <Right data-test="right">
-              <MapFilters />
+              <MapFilters version={this.props.version} />
             </Right>
           </FlexWrapper>
-          <MapsList list={MAPS} />
+          <MapsList list={this.props.maps} />
         </Panel>
       </PageContainer>
     );

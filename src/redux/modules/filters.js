@@ -15,6 +15,7 @@ const initialState = {
     hideUniques: false,
     hideNonAtlasMaps: false,
     hideCheckedMaps: false,
+    hidePreBetrayalMaps: false,
   },
   passives: {
     hideCheckedQuests: false,

@@ -5,6 +5,13 @@ import styled, { css } from 'react-emotion';
 
 export type Props = {};
 
+const Extra = styled.span`
+  display: block;
+  font-size: 9px;
+  text-transform: uppercase;
+  font-weight: 600;
+`;
+
 const NavItemSpacing = 20;
 const NavItem = styled.li`
   display: inline-block;
@@ -39,6 +46,8 @@ const NavItem = styled.li`
 const linkStyles = css`
   transition: background-color 150ms, color 150ms;
   padding: 0 ${NavItemSpacing}px;
+  flex-direction: column;
+  justify-content: center;
 
   &.active {
     color: white;
@@ -73,6 +82,11 @@ export default class Nav extends React.Component {
         className={`reset-list full-height ${this.props.className || ''}`}
         data-test="nav"
       >
+        <NavItem className="full-height">
+          <ExactLink to="/maps-betrayal">
+            Maps <Extra>(Betrayal)</Extra>
+          </ExactLink>
+        </NavItem>
         <NavItem className="full-height">
           <ExactLink isActive={isMapPageActive} to="/">
             Maps

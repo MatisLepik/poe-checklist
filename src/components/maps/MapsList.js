@@ -138,6 +138,11 @@ export default compose(
       if (filters.hideCheckedMaps && map.isChecked) return false;
       if (filters.hideNonAtlasMaps && !map.isOnAtlas) return false;
       if (filters.hideUniques && map.isUnique) return false;
+      if (
+        filters.hidePreBetrayalMaps &&
+        (typeof map.releaseVersion !== 'number' || map.releaseVersion < 3.5)
+      )
+        return false;
 
       return true;
     },
