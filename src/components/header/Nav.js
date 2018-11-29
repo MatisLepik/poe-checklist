@@ -83,13 +83,13 @@ export default class Nav extends React.Component {
         data-test="nav"
       >
         <NavItem className="full-height">
-          <ExactLink to="/maps-betrayal">
-            Maps <Extra>(Betrayal)</Extra>
+          <ExactLink isActive={isMapPageActive} to="/">
+            Maps
           </ExactLink>
         </NavItem>
         <NavItem className="full-height">
-          <ExactLink isActive={isMapPageActive} to="/">
-            Maps
+          <ExactLink to="/maps-betrayal">
+            Maps <Extra>(Betrayal)</Extra>
           </ExactLink>
         </NavItem>
         <NavItem className="full-height">
