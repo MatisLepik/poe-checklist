@@ -15,7 +15,7 @@ export default ({ pool, filter } = {}) => Component =>
         };
       }
 
-      componentWillReceiveProps(nextProps) {
+      UNSAFE_componentWillReceiveProps(nextProps) {
         // We cache the filtered list so it doesn't need to be calculated on every re-render.
         // So here we need to recalulate whenever the reference changes
         if (
