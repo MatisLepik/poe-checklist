@@ -1227,6 +1227,14 @@
       "level": 76,
       "isOnAtlas": true,
       "releaseVersion": 3.1
+    },
+    {
+      "name": "Doryani's Machinarium",
+      "tier": 5,
+      "isUnique": true,
+      "level": 80,
+      "isOnAtlas": true,
+      "releaseVersion": 3.4
     }
   ]
 }

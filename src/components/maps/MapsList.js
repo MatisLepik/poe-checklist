@@ -21,7 +21,7 @@ import ClearTable from 'src/components/tables/ClearTable';
 
 export type Props = {};
 
-export class MapList extends React.Component {
+export class MapsList extends React.Component {
   props: Props;
 
   handleRowClick = row => {
@@ -160,4 +160,4 @@ export default compose(
       ],
     },
   })
-)(MapList);
+)(MapsList);
