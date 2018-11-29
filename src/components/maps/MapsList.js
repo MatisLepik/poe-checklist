@@ -109,13 +109,6 @@ export class MapList extends React.Component {
             component: MapName,
             isSortable: true,
           },
-          // Disabled until we have the data
-          // {
-          //   name: 'Sextants',
-          //   key: 'sextantCoverageIncludingSelf',
-          //   className: 'text-center',
-          //   isSortable: true,
-          // },
           {
             name: 'Level',
             key: 'level',
@@ -145,11 +138,6 @@ export default compose(
       if (filters.hideCheckedMaps && map.isChecked) return false;
       if (filters.hideNonAtlasMaps && !map.isOnAtlas) return false;
       if (filters.hideUniques && map.isUnique) return false;
-      if (
-        filters.hidePreWarForAtlasMaps &&
-        (typeof map.releaseVersion !== 'number' || map.releaseVersion < 3.1)
-      )
-        return false;
 
       return true;
     },
