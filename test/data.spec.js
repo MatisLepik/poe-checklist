@@ -1,4 +1,4 @@
-import MAPS from '../src/data/MAPS';
+import MAPS, { MAPS_BY_NAME } from '../src/data/MAPS';
 import PASSIVES from '../src/data/PASSIVES';
 import TRIALS from '../src/data/TRIALS';
 import PANTHEONS from '../src/data/PANTHEONS';
@@ -6,18 +6,20 @@ import BOSSES from '../src/data/BOSSES';
 
 describe('Static data', () => {
   describe('Maps', () => {
-    const mapsArr = Object.values(MAPS);
+    const mapsArr = MAPS;
 
-    it('should have 126 maps in the atlas', () => {
-      expect(mapsArr.filter(map => map.isOnAtlas)).toHaveLength(126);
+    it('should have 158 maps in the atlas', () => {
+      expect(mapsArr.filter(map => map.isOnAtlas)).toHaveLength(158);
     });
 
-    it('should have 20 unique maps', () => {
-      expect(mapsArr.filter(map => map.isUnique)).toHaveLength(20);
+    it('should have 22 unique maps', () => {
+      expect(mapsArr.filter(map => map.isUnique)).toHaveLength(22);
     });
 
-    it('should have 10 maps with no tier', () => {
-      expect(mapsArr.filter(map => map.tier === null)).toHaveLength(10);
+    it('should have 9 maps with no tier', () => {
+      expect(
+        mapsArr.filter(map => map.tier === null || map.tier === 0)
+      ).toHaveLength(9);
     });
 
     it('should have maps between lvl 68 and 84 (inclusive)', () => {
@@ -63,18 +65,17 @@ describe('Static data', () => {
     it('should have a valid map for each boss', () => {
       const maps = bossArr.map(boss => boss.map);
 
-      expect(maps.every(mapId => MAPS[mapId])).toBe(true);
+      maps.forEach(mapName => expect(MAPS_BY_NAME[mapName]).toBeTruthy());
     });
   });
 
   describe('Trials', () => {
     const trialsArr = Object.values(TRIALS);
 
-    it('should have a map and act for each trial', () => {
+    it('should have a zone and act property for each trial', () => {
       expect(
         trialsArr.every(
-          trial =>
-            typeof trial.map === 'string' && typeof trial.act === 'number'
+          trial => trial.hasOwnProperty('zone') && trial.hasOwnProperty('act')
         )
       ).toBe(true);
     });

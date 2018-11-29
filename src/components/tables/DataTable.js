@@ -52,7 +52,9 @@ const HeadingCellClickableArea = styled.div`
   }
 `;
 
-const Table = styled.table`width: 100%;`;
+const Table = styled.table`
+  width: 100%;
+`;
 
 const HeadingRow = styled.tr(rowStyles);
 
@@ -68,7 +70,7 @@ export class DataTable extends React.Component {
     const { name, ...passThrough } = col;
 
     if (typeof name === 'function') {
-      if (name.prototype.isReactComponent) {
+      if (name.prototype && name.prototype.isReactComponent) {
         return React.createElement(name, passThrough);
       }
       return name(passThrough);
@@ -101,11 +103,26 @@ export class DataTable extends React.Component {
                     {this.renderHeadingName(col)}
                     {col.isSortable &&
                       (col.key === this.props.sortKey ? (
-                        <Arrow className="arrow" css={`margin-left: 5px;`} />
+                        <Arrow
+                          className="arrow"
+                          css={`
+                            margin-left: 5px;
+                          `}
+                        />
                       ) : (
                         <DoubleArrow>
-                          <Arrow className="arrow" css={`margin-left: 5px;`} />
-                          <Arrow className="arrow" css={`margin-left: 5px;`} />
+                          <Arrow
+                            className="arrow"
+                            css={`
+                              margin-left: 5px;
+                            `}
+                          />
+                          <Arrow
+                            className="arrow"
+                            css={`
+                              margin-left: 5px;
+                            `}
+                          />
                         </DoubleArrow>
                       ))}
                   </HeadingCellClickableArea>

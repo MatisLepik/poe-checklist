@@ -37,7 +37,7 @@ export default class MapsPage extends React.Component {
               <MapFilters />
             </Right>
           </FlexWrapper>
-          <MapsList list={Object.values(MAPS)} />
+          <MapsList list={MAPS} />
         </Panel>
       </PageContainer>
     );

@@ -4,7 +4,7 @@ import { H2 } from 'src/components/styled/Heading';
 import PantheonsFilters from 'src/components/pantheons/PantheonsFilters';
 import PANTHEONS from 'src/data/PANTHEONS';
 import BOSSES from 'src/data/BOSSES';
-import MAPS from 'src/data/MAPS';
+import { MAPS_BY_NAME } from 'src/data/MAPS';
 import PantheonsList from 'src/components/pantheons/PantheonsList';
 import PageContainer from 'src/components/pages/PageContainer';
 import PageDescription from 'src/components/styled/PageDescription';
@@ -19,9 +19,15 @@ export default class PantheonsPage extends React.Component {
   render() {
     const pantheonUpgrades = Object.values(PANTHEONS).reduce((acc, cur) => {
       const { name, id, upgrades } = cur;
-      upgrades.forEach(({...upgrade, boss}, i) => {
+      upgrades.forEach(({ boss, ...upgrade }, i) => {
         const bossData = BOSSES[boss];
-        acc.push({ ...upgrade, god: name, id: `${id}-${i}`, bossName: bossData.name, map: MAPS[bossData.map] });
+        acc.push({
+          ...upgrade,
+          god: name,
+          id: `${id}-${i}`,
+          bossName: bossData.name,
+          map: MAPS_BY_NAME[bossData.map],
+        });
       });
 
       return acc;
