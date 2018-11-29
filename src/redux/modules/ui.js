@@ -1,12 +1,10 @@
 /* @flow */
 const SET_UI = 'redux/ui/SET_UI';
 const TOGGLE_DRAWER = 'redux/ui/TOGGLE_DRAWER';
-const SET_NOTES_VALUE = 'redux/ui/SET_NOTES_VALUE';
 
 const initialState = {
   drawers: {
     essences: true,
-    notes: false,
   },
   notes: {
     defaultValue: '',
@@ -24,14 +22,6 @@ export default function reducer(
         drawers: {
           ...state.drawers,
           [action.name]: !state.drawers[action.name],
-        },
-      };
-    case SET_NOTES_VALUE:
-      return {
-        ...state,
-        notes: {
-          ...state.notes,
-          defaultValue: action.value,
         },
       };
     case SET_UI:
@@ -55,12 +45,5 @@ export function toggleDrawer(name: string) {
   return {
     type: TOGGLE_DRAWER,
     name,
-  };
-}
-
-export function setNotesValue(value: string) {
-  return {
-    type: SET_NOTES_VALUE,
-    value,
   };
 }
