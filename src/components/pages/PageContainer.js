@@ -1,7 +1,7 @@
 /* @flow */
 import React from 'react';
 import { connect } from 'react-redux';
-import styled, { css } from 'react-emotion';
+import styled from 'react-emotion';
 import MaxWidthWrapper from 'src/components/styled/MaxWidthWrapper';
 import SIZES from 'src/styles/SIZES';
 

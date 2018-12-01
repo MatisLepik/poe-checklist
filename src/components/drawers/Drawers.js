@@ -1,6 +1,6 @@
 /* @flow */
 import React from 'react';
-import styled, { css } from 'react-emotion';
+import styled from 'react-emotion';
 import Drawer from 'src/components/drawers/Drawer';
 import GoodEssences from 'src/components/essences/GoodEssences';
 import SIZES from 'src/styles/SIZES';
