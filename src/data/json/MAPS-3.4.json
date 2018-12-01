@@ -1090,7 +1090,7 @@
       "name": "Hallowed Ground",
       "tier": 6,
       "isUnique": true,
-      "level": 73,
+      "level": 78,
       "isOnAtlas": true
     },
     {
@@ -1105,6 +1105,13 @@
       "tier": 4,
       "isUnique": true,
       "level": 71,
+      "isOnAtlas": true
+    },
+    {
+      "name": "The Perandus Manor",
+      "tier": 4,
+      "isUnique": true,
+      "level": 78,
       "isOnAtlas": true
     },
     {
