@@ -892,6 +892,13 @@
       "releaseVersion": 3.1
     },
     {
+      "name": "The Perandus Manor",
+      "tier": 11,
+      "isUnique": true,
+      "level": 78,
+      "isOnAtlas": true
+    },
+    {
       "name": "Arsenal Map",
       "tier": 12,
       "isUnique": false,
