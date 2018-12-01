@@ -364,16 +364,16 @@
     },
     {
       "name": "Hallowed Ground",
-      "tier": 6,
+      "tier": 9,
       "isUnique": true,
-      "level": 73,
+      "level": 76,
       "isOnAtlas": true
     },
     {
       "name": "Maelström of Chaos",
-      "tier": 6,
+      "tier": 1,
       "isUnique": true,
-      "level": 73,
+      "level": 68,
       "isOnAtlas": true
     },
     {
@@ -480,9 +480,9 @@
     },
     {
       "name": "Olmec's Sanctum",
-      "tier": 7,
+      "tier": 3,
       "isUnique": true,
-      "level": 74,
+      "level": 70,
       "isOnAtlas": true
     },
     {
@@ -597,9 +597,9 @@
     },
     {
       "name": "The Vinktar Square",
-      "tier": 8,
+      "tier": 4,
       "isUnique": true,
-      "level": 75,
+      "level": 71,
       "isOnAtlas": true
     },
     {
@@ -611,9 +611,9 @@
     },
     {
       "name": "Vaults of Atziri",
-      "tier": 8,
+      "tier": 5,
       "isUnique": true,
-      "level": 75,
+      "level": 72,
       "isOnAtlas": true
     },
     {
@@ -655,9 +655,9 @@
     },
     {
       "name": "Poorjoy's Asylum",
-      "tier": 9,
+      "tier": 6,
       "isUnique": true,
-      "level": 76,
+      "level": 73,
       "isOnAtlas": true
     },
     {
@@ -800,9 +800,9 @@
     },
     {
       "name": "The Coward's Trial",
-      "tier": 10,
+      "tier": 3,
       "isUnique": true,
-      "level": 77,
+      "level": 70,
       "isOnAtlas": true
     },
     {
@@ -856,9 +856,9 @@
     },
     {
       "name": "Hall of Grandmasters",
-      "tier": 11,
+      "tier": 8,
       "isUnique": true,
-      "level": 78,
+      "level": 75,
       "isOnAtlas": true
     },
     {
@@ -964,9 +964,9 @@
     },
     {
       "name": "Oba's Cursed Trove",
-      "tier": 12,
+      "tier": 5,
       "isUnique": true,
-      "level": 79,
+      "level": 72,
       "isOnAtlas": true
     },
     {
