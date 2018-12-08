@@ -6,7 +6,6 @@ import PantheonsPage from 'src/components/pages/PantheonsPage';
 import PassiveQuestsPage from 'src/components/pages/PassiveQuestsPage';
 import React from 'react';
 import TrialsPage from 'src/components/pages/TrialsPage';
-import BetrayalMapsPage from 'src/components/pages/BetrayalMapsPage';
 
 export type Props = {};
 
@@ -27,7 +26,6 @@ export class Routes extends React.Component {
       <Switch>
         <Route exact path="/" component={MapsPage} />
         <Route exact path="/maps" component={MapsPage} />
-        <Route exact path="/maps-betrayal" component={BetrayalMapsPage} />
         <Route exact path="/trials" component={TrialsPage} />
         <Route exact path="/pantheons" component={PantheonsPage} />
         <Route exact path="/passives" component={PassiveQuestsPage} />

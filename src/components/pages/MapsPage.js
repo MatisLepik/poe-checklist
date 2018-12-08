@@ -16,7 +16,7 @@ export default class MapsPage extends React.Component {
 
   static defaultProps = {
     maps: MAPS,
-    version: 3.4,
+    version: 3.5,
   };
 
   render() {
@@ -29,9 +29,10 @@ export default class MapsPage extends React.Component {
                 <H2>Maps</H2>
                 <p>
                   This list contains all the maps, including ones that aren't on
-                  the atlas. <br />Hide the non-atlas maps to keep track of
-                  which maps you've bought/completed, or hide maps that don't
-                  drop a Shaper's Orb when you're shaping your atlas.
+                  the atlas. <br />
+                  Hide the non-atlas maps to keep track of which maps you've
+                  bought/completed, or hide maps that don't drop a Shaper's Orb
+                  when you're shaping your atlas.
                 </p>
                 <p>
                   Click on the picture icon to bring up an image of the map.

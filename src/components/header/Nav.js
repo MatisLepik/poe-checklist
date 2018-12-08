@@ -88,11 +88,6 @@ export default class Nav extends React.Component {
           </ExactLink>
         </NavItem>
         <NavItem className="full-height">
-          <ExactLink to="/maps-betrayal">
-            Maps <Extra>(Betrayal)</Extra>
-          </ExactLink>
-        </NavItem>
-        <NavItem className="full-height">
           <ExactLink to="/passives">Passive quests</ExactLink>
         </NavItem>
         <NavItem className="full-height">
