@@ -340,13 +340,6 @@
       "isOnAtlas": true
     },
     {
-      "name": "Cemetery Map",
-      "tier": 6,
-      "isUnique": false,
-      "level": 73,
-      "isOnAtlas": true
-    },
-    {
       "name": "Fields Map",
       "tier": 6,
       "isUnique": false,
@@ -636,6 +629,13 @@
       "tier": 9,
       "isUnique": false,
       "level": 76,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Cemetery Map",
+      "tier": 9,
+      "isUnique": false,
+      "level": 78,
       "isOnAtlas": true
     },
     {
