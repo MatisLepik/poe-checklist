@@ -392,6 +392,13 @@
       "releaseVersion": 3.1
     },
     {
+      "name": "Temple Map",
+      "tier": 6,
+      "isUnique": false,
+      "level": 73,
+      "isOnAtlas": true
+    },
+    {
       "name": "Volcano Map",
       "tier": 6,
       "isUnique": false,
@@ -677,13 +684,6 @@
     },
     {
       "name": "Tropical Island Map",
-      "tier": 9,
-      "isUnique": false,
-      "level": 76,
-      "isOnAtlas": true
-    },
-    {
-      "name": "Temple Map",
       "tier": 9,
       "isUnique": false,
       "level": 76,
