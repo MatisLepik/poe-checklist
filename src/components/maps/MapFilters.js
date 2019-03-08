@@ -43,17 +43,6 @@ export class MapFilters extends React.Component {
             Hide non-atlas maps
           </Checkbox>
         </InputWrapper>
-        {this.props.version === 3.5 && (
-          <InputWrapper>
-            <Checkbox
-              name="hidePreBetrayalMaps"
-              checked={!!this.props.hidePreBetrayalMaps}
-              onChange={this.handleToggle}
-            >
-              Hide old maps (pre Betrayal)
-            </Checkbox>
-          </InputWrapper>
-        )}
       </div>
     );
   }

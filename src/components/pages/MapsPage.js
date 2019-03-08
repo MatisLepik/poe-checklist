@@ -16,7 +16,7 @@ export default class MapsPage extends React.Component {
 
   static defaultProps = {
     maps: MAPS,
-    version: 3.5,
+    version: 3.6,
   };
 
   render() {

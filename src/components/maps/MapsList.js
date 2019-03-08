@@ -46,7 +46,8 @@ export class MapsList extends React.Component {
       >
         <p>
           <i>
-            No maps to show. If you completed them all - congratulations!<br />
+            No maps to show. If you completed them all - congratulations!
+            <br />
             Otherwise, try disabling some of the filters.
             <br />
             <br />
@@ -138,12 +139,6 @@ export default compose(
       if (filters.hideCheckedMaps && map.isChecked) return false;
       if (filters.hideNonAtlasMaps && !map.isOnAtlas) return false;
       if (filters.hideUniques && map.isUnique) return false;
-      if (
-        filters.hidePreBetrayalMaps &&
-        originalProps.version >= 3.5 &&
-        (typeof map.releaseVersion !== 'number' || map.releaseVersion < 3.5)
-      )
-        return false;
 
       return true;
     },
