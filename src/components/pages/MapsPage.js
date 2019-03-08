@@ -26,7 +26,7 @@ export default class MapsPage extends React.Component {
           <FlexWrapper centerVertically>
             <Left data-test="left">
               <PageDescription>
-                <H2>Maps</H2>
+                <H2>Maps ({this.props.version})</H2>
                 <p>
                   This list contains all the maps, including ones that aren't on
                   the atlas. <br />
