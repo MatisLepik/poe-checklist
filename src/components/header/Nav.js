@@ -5,13 +5,6 @@ import styled, { css } from 'react-emotion';
 
 export type Props = {};
 
-const Extra = styled.span`
-  display: block;
-  font-size: 9px;
-  text-transform: uppercase;
-  font-weight: 600;
-`;
-
 const NavItemSpacing = 20;
 const NavItem = styled.li`
   display: inline-block;
