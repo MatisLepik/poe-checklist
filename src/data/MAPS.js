@@ -1,7 +1,7 @@
 import keyBy from 'lodash/keyBy';
 
 // For this app, we need to keep a unique id for each map, which will be defined as the combination of name-tier-level
-const MAPS = require('./json/MAPS-3.5.json').list.map(map => ({
+const MAPS = require('./json/MAPS-3.6.json').list.map(map => ({
   ...map,
   id: getId(map),
 }));
