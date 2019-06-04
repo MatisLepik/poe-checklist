@@ -1,5 +1,5 @@
 function getChanges(mapDataString) {
-  const oldMaps = require('../../src/data/json/MAPS-3.4.json').list;
+  const oldMaps = require('../../src/data/json/MAPS-3.6.json').list;
   const newMapData = parseMapData(mapDataString);
   const updatedTiers = getUpdatedTiers(oldMaps, newMapData);
   const deletedMaps = getDeletedMaps(oldMaps, newMapData);
@@ -50,300 +50,382 @@ function getDeletedMaps(oldMaps, newMapData) {
   );
 }
 
+/**
+ * returns { [mapName]: tierInt }
+ */
 function parseMapData(mapDataString) {
-  const lineByLine = mapDataString.split('\n');
+  const lineByLine = mapDataString.split('\n').filter(x => x !== '');
+  const byTier = {};
+  let currentTier = 0;
+
+  lineByLine.forEach(line => {
+    const tierRow = line.match(/tier (\d+)/i);
+    if (tierRow) {
+      currentTier = Number(tierRow[1]);
+      byTier[currentTier] = [];
+    } else {
+      byTier[currentTier].push(line);
+    }
+  });
+
   const output = {};
 
-  for (let i = 0; i < lineByLine.length; i += 2) {
-    if (lineByLine[i + 1 == null])
-      throw new Error('Unexpected data near' + lineByLine[i]);
-
-    output[lineByLine[i]] = Number(lineByLine[i + 1]);
-  }
+  Object.entries(byTier).forEach(([tier, maps]) => {
+    maps.forEach(map => {
+      output[map] = Number(tier);
+    });
+  });
 
   return output;
 }
 
-getChanges(`Flooded Mine Map
-1
-Channel Map
-1
-Atoll Map
-1
-Ramparts Map
-1
-Dungeon Map
-2
-Pen Map
-2
-Arid Lake Map
-2
-Iceberg Map
-2
-Thicket Map
-2
-Armoury Map
-2
-Graveyard Map
-3
-Desert Map
-3
-Cage Map
-3
-Fungal Hollow Map (Springs)
-3
-Excavation Map
-3
-Peninsula Map
-3
-Grotto Map
-3
-Bone Crypt Map
-3
-Shipyard Map
-3
-Cursed Crypt Map
-3
-Lookout Map
-4
-Beach Map
-4
-Marshes Map
-4
-Strand Map
-4
-Glacier Map (Gorge)
-4
-Lighthouse Map
-4
-Spider Lair Map
-4
-Barrows Map
-4
-Crater Map (Tribunal)
-4
-Courtyard Map
-4
-Alleyways Map
-5
-Port Map
-5
-City Square Map
-5
-Maze Map
-5
-Mausoleum Map
-5
-Jungle Valley Map
-5
-Underground Sea Map
-5
-Residence Map
-5
-Gardens Map
-5
-Vaal Pyramid Map
-5
-Volcano Map
-6
-Canyon Map
-6
+getChanges(`Tier 1:
+
 Sulphur Vents Map
-6
+
 Haunted Mansion Map
-6
-Fields Map
-6
-Phantasmagoria Map
-6
-Academy Map
-6
-Wharf Map
-6
-Ashen Wood Map
-6
-Cemetery Map
-6
-Precinct Map
-6
-Cells Map
-7
-Arcade Map
-7
-Conservatory Map
-7
-Toxic Sewer Map
-7
-Lava Chamber Map
-7
-Dunes Map
-7
-Underground River Map
-7
-Bazaar Map
-7
-Geode Map
-7
-Primordial Pool Map
-7
-Ghetto Map
-7
-Arachnid Nest Map
-8
-Laboratory Map
-8
-Infested Valley Map
-8
-Overgrown Ruin Map
-8
-Mud Geyser Map
-8
-Shore Map
-8
-Mineral Pools Map
-8
-Sepulchre Map
-8
-Wasteland Map
-8
-Orchard Map
-8
-Promenade Map
-8
-Relic Chambers Map
-9
-Ancient City Map
-9
-Tropical Island Map
-9
-Moon Temple Map
-9
-Waste Pool Map
-9
-Vault Map
-9
-Temple Map
-9
-Arena Map
-9
-Museum Map
-9
-Scriptorium Map
-9
-Waterways Map
-9
-Leyline Map
-10
-Coral Ruins Map
-10
-Plateau Map
-10
-Estuary Map
-10
-Belfry Map
-10
-Pier Map
-10
-Spider Forest Map
-10
-Coves Map
-10
-Pit Map
-10
-Plaza Map
-10
-Burial Chambers Map
-11
-Chateau Map
-11
-Siege Map
-11
-Arachnid Tomb Map
-11
-Bog Map
-11
-Lair Map
-11
-Factory Map
-11
-Mesa Map
-11
-Crystal Ore Map
-11
-Park Map
-11
+
+Desert Map
+
 Ivory Temple Map
-12
-Colonnade Map
-12
-Defiled Cathedral Map
-12
-Overgrown Shrine Map
-12
-Castle Ruins Map
-12
-Villa Map
-12
-Necropolis Map
-12
-Malformation Map
-12
-Arsenal Map
-12
+
+Tier 2:
+
+Glacier Map
+
+Thicket Map
+
+Alleyways Map
+
+Lookout Map
+
+Barrows Map
+
+Armoury Map
+
+Tier 3:
+
+Leyline Map
+
+Mausoleum Map
+
+Ashen Wood Map
+
+Relic Chambers Map
+
+Pier Map
+
+Arid Lake Map
+
+Arachnid Tomb Map
+
+Flooded Mine Map
+
+Wharf Map
+
+Pen Map
+
+Tier 4:
+
+Excavation Map
+
+Crater Map
+
+City Square Map
+
+Fields Map
+
+Cage Map
+
+Grotto Map
+
+Cursed Crypt Map
+
+Strand Map
+
+Channel Map
+
+Beach Map
+
+The Coward's Trial
+
+Whakawairua Tuahu
+
+Tier 5:
+
+Marshes Map
+
+Spider Lair Map
+
+Tropical Island Map
+
+Ramparts Map
+
+Burial Chambers Map
+
+Mesa Map
+
+Jungle Valley Map
+
+Peninsula Map
+
+Arcade Map
+
+Fungal Hollow Map
+
+Tier 6:
+
+Mud Geyser Map
+
+Courtyard Map
+
+Ancient City Map
+
+Atoll Map
+
+Maze Map
+
+Promenade Map
+
+Cells Map
+
+Phantasmagoria Map
+
+Waste Pool Map
+
+Overgrown Ruin Map
+
+Primordial Pool Map
+
+Doryani's Machinarium
+
+Hall of Grandmasters
+
+Maelström of Chaos
+
+The Vinktar Square
+
+Tier 7:
+
+Residence Map
+
+Spider Forest Map
+
+Arena Map
+
+Dungeon Map
+
 Racecourse Map
-13
-Caldera Map
-13
-Shrine Map
-13
-Core Map
-13
-Colosseum Map
-13
-Acid Caverns Map (Acid Lakes)
-13
-Crimson Temple Map
-13
+
+Graveyard Map
+
+Vault Map
+
+Waterways Map
+
+Conservatory Map
+
+Laboratory Map
+
+Overgrown Shrine Map
+
+Acton's Nightmare
+
+Tier 8:
+
+Iceberg Map
+
+Pit Map
+
+Ghetto Map
+
+Bone Crypt Map
+
+Chateau Map
+
+Toxic Sewer Map
+
+Scriptorium Map
+
+Dunes Map
+
+Factory Map
+
+Necropolis Map
+
+Estuary Map
+
+Olmec's Sanctum
+
+Perandus Manor
+
+Pillars of Arun
+
+Death and Taxes
+
+Tier 9:
+
+Arachnid Nest Map
+
+Port Map
+
+Villa Map
+
+Mineral Pools Map
+
+Underground River Map
+
+Underground Sea Map
+
+Castle Ruins Map
+
+Shore Map
+
+Moon Temple Map
+
+Arsenal Map
+
+Lighthouse Map
+
+Mao Kun
+
+The Twilight Temple
+
+Caer Blaidd, Wolfpack's Den
+
+Oba's Cursed Trove
+
+Tier 10:
+
+Sepulchre Map
+
+Coral Ruins Map
+
+Volcano Map
+
+Geode Map
+
+Bog Map
+
+Plateau Map
+
+Lava Chamber Map
+
+Bazaar Map
+
+Academy Map
+
+Temple Map
+
+Poorjoy's Asylum
+
+Tier 11:
+
+Infested Valley Map
+
 Dig Map
-13
-Reef Map
-13
-Courthouse Map
-14
-Terrace Map
-14
-Dark Forest Map
-14
-Palace Map
-14
-Basilica Map
-14
-Sunken City
-14
-Carcass Map
-14
-Tower Map
-15
-Summit Map
-15
-Primordial Blocks Map (Torture Chamber)
-15
-Desert Spring Map
-15
+
+Lair Map
+
+Malformation Map
+
+Siege Map
+
+Gardens Map
+
+Crimson Temple Map
+
+Precinct Map
+
+Colonnade Map
+
+Museum Map
+
+The Putrid Cloister
+
+Tier 12:
+
 Lava Lake Map
-15
-Pit of the Chimera Map
-16
-Lair of the Hydra Map
-16
-Maze of the Minotaur Map
-16
-Forge of the Phoenix Map
-16
+
+Cemetery Map
+
+Vaal Pyramid Map
+
+Park Map
+
+Shipyard Map
+
+Core Map
+
+Carcass Map
+
+Canyon Map
+
+Colosseum Map
+
+Hallowed Ground
+
+Vaults of Atziri
+
+Tier 13:
+
+Tower Map
+
+Sunken City Map
+
+Defiled Cathedral Map
+
+Belfry Map
+
+Coves Map
+
+Shrine Map
+
+Plaza Map
+
+Terrace Map
+
+Reef Map
+
+Tier 14:
+
+Primordial Blocks Map
+
+Orchard Map
+
+Wasteland Map
+
+Crystal Ore Map
+
+Courthouse Map
+
+Basilica Map
+
+Dark Forest Map
+
+Tier 15:
+
+Summit Map
+
+Caldera Map
+
+Acid Caverns Map
+
+Desert Spring Map
+
+Palace Map
+
+Tier 16:
+
 Vaal Temple Map
-16
-The Shaper's Realm
-17`).forEach(change => {
+
+Forge of the Phoenix Map
+
+Maze of the Minotaur Map
+
+Pit of the Chimera Map
+
+Lair of the Hydra Map`).forEach(change => {
   console.log(change);
   console.log('');
 });
