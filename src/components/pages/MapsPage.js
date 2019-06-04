@@ -2,7 +2,7 @@
 import { FlexWrapper, Left, Right } from 'src/components/styled/SideBySide';
 import { H2 } from 'src/components/styled/Heading';
 import MapFilters from 'src/components/maps/MapFilters';
-import MAPS from 'src/data/MAPS';
+import MAPS, { ACTIVE_VERSION } from 'src/data/MAPS';
 import MapsList from 'src/components/maps/MapsList';
 import PageContainer from 'src/components/pages/PageContainer';
 import PageDescription from 'src/components/styled/PageDescription';
@@ -16,7 +16,7 @@ export default class MapsPage extends React.Component {
 
   static defaultProps = {
     maps: MAPS,
-    version: 3.6,
+    version: ACTIVE_VERSION,
   };
 
   render() {
