@@ -1,5 +1,5 @@
 function getChanges(mapDataString) {
-  const oldMaps = require('../../src/data/json/MAPS-3.6.json').list;
+  const oldMaps = require('../../src/data/json/MAPS-3.7.json').list;
   const newMapData = parseMapData(mapDataString);
   const updatedTiers = getUpdatedTiers(oldMaps, newMapData);
   const deletedMaps = getDeletedMaps(oldMaps, newMapData);
@@ -64,7 +64,30 @@ function parseMapData(mapDataString) {
       currentTier = Number(tierRow[1]);
       byTier[currentTier] = [];
     } else {
-      byTier[currentTier].push(line);
+      const withoutMapSuffix = [
+        'Whakawairua Tuahu',
+        "The Coward's Trial",
+        "Doryani's Machinarium",
+        "Olmec's Sanctum",
+        "Acton's Nightmare",
+        'Perandus Manor',
+        "Oba's Cursed Trove",
+        'Death and Taxes',
+        'Maelström of Chaos',
+        "Caer Blaidd, Wolfpack's Den",
+        'Mao Kun',
+        "Poorjoy's Asylum",
+        'The Vinktar Square',
+        'Hall of Grandmasters',
+        'Pillars of Arun',
+        'The Twilight Temple',
+        'Vaults of Atziri',
+        'Hallowed Ground',
+        'The Putrid Cloister',
+      ];
+      byTier[currentTier].push(
+        withoutMapSuffix.includes(line) ? line : `${line} Map`
+      );
     }
   });
 
@@ -81,351 +104,351 @@ function parseMapData(mapDataString) {
 
 getChanges(`Tier 1:
 
-Sulphur Vents Map
+Arcade
 
-Haunted Mansion Map
+Jungle Valley
 
-Desert Map
+Wharf
 
-Ivory Temple Map
+Pier
 
 Tier 2:
 
-Glacier Map
+Alleyways
 
-Thicket Map
+Cage
 
-Alleyways Map
+Excavation
 
-Lookout Map
+Sulphur Vents
 
-Barrows Map
+Armoury
 
-Armoury Map
+Mesa
 
 Tier 3:
 
-Leyline Map
+Pen
 
-Mausoleum Map
+Desert
 
-Ashen Wood Map
+Fungal Hollow
 
-Relic Chambers Map
+Strand
 
-Pier Map
+Ivory Temple
 
-Arid Lake Map
+Spider Lair
 
-Arachnid Tomb Map
+Mausoleum
 
-Flooded Mine Map
+Ashen Wood
 
-Wharf Map
+Ramparts
 
-Pen Map
-
-Tier 4:
-
-Excavation Map
-
-Crater Map
-
-City Square Map
-
-Fields Map
-
-Cage Map
-
-Grotto Map
-
-Cursed Crypt Map
-
-Strand Map
-
-Channel Map
-
-Beach Map
-
-The Coward's Trial
+Tropical Island
 
 Whakawairua Tuahu
 
+Tier 4:
+
+Arid Lake
+
+Flooded Mine
+
+Leyline
+
+Burial Chambers
+
+Channel
+
+Barrows
+
+Fields
+
+Crater
+
+Arachnid Tomb
+
+Cursed Crypt
+
+The Coward's Trial
+
 Tier 5:
 
-Marshes Map
+Lookout
 
-Spider Lair Map
+Beach
 
-Tropical Island Map
+Marshes
 
-Ramparts Map
+Peninsula
 
-Burial Chambers Map
+City Square
 
-Mesa Map
+Relic Chambers
 
-Jungle Valley Map
+Grotto
 
-Peninsula Map
+Glacier
 
-Arcade Map
+Haunted Mansion
 
-Fungal Hollow Map
+Thicket
 
 Tier 6:
 
-Mud Geyser Map
+Lighthouse
 
-Courtyard Map
+Maze
 
-Ancient City Map
+Residence
 
-Atoll Map
+Bone Crypt
 
-Maze Map
+Geode
 
-Promenade Map
+Estuary
 
-Cells Map
+Vault
 
-Phantasmagoria Map
+Overgrown Shrine
 
-Waste Pool Map
+Racecourse
 
-Overgrown Ruin Map
+Ghetto
 
-Primordial Pool Map
+Arsenal
 
 Doryani's Machinarium
 
-Hall of Grandmasters
-
-Maelström of Chaos
-
-The Vinktar Square
-
-Tier 7:
-
-Residence Map
-
-Spider Forest Map
-
-Arena Map
-
-Dungeon Map
-
-Racecourse Map
-
-Graveyard Map
-
-Vault Map
-
-Waterways Map
-
-Conservatory Map
-
-Laboratory Map
-
-Overgrown Shrine Map
+Olmec's Sanctum
 
 Acton's Nightmare
 
-Tier 8:
+Tier 7:
 
-Iceberg Map
+Port
 
-Pit Map
+Chateau
 
-Ghetto Map
+Conservatory
 
-Bone Crypt Map
+Ancient City
 
-Chateau Map
+Underground Sea
 
-Toxic Sewer Map
+Bazaar
 
-Scriptorium Map
+Waste Pool
 
-Dunes Map
+Spider Forest
 
-Factory Map
+Factory
 
-Necropolis Map
+Villa
 
-Estuary Map
-
-Olmec's Sanctum
+Necropolis
 
 Perandus Manor
 
-Pillars of Arun
+Oba's Cursed Trove
 
 Death and Taxes
 
-Tier 9:
+Tier 8:
 
-Arachnid Nest Map
+Graveyard
 
-Port Map
+Cells
 
-Villa Map
+Volcano
 
-Mineral Pools Map
+Phantasmagoria
 
-Underground River Map
+Atoll
 
-Underground Sea Map
+Underground River
 
-Castle Ruins Map
+Arachnid Nest
 
-Shore Map
+Shore
 
-Moon Temple Map
+Sepulchre
 
-Arsenal Map
+Temple
 
-Lighthouse Map
+Pit
 
-Mao Kun
-
-The Twilight Temple
+Maelström of Chaos
 
 Caer Blaidd, Wolfpack's Den
 
-Oba's Cursed Trove
-
-Tier 10:
-
-Sepulchre Map
-
-Coral Ruins Map
-
-Volcano Map
-
-Geode Map
-
-Bog Map
-
-Plateau Map
-
-Lava Chamber Map
-
-Bazaar Map
-
-Academy Map
-
-Temple Map
+Mao Kun
 
 Poorjoy's Asylum
 
+Tier 9:
+
+Dungeon
+
+Coral Ruins
+
+Laboratory
+
+Courtyard
+
+Mud Geyser
+
+Mineral Pools
+
+Arena
+
+Scriptorium
+
+Promenade
+
+Waterways
+
+Castle Ruins
+
+The Vinktar Square
+
+Hall of Grandmasters
+
+Tier 10:
+
+Iceberg
+
+Toxic Sewer
+
+Academy
+
+Lava Chamber
+
+Dunes
+
+Overgrown Ruin
+
+Moon Temple
+
+Plateau
+
+Bog
+
+Primordial Pool
+
+Pillars of Arun
+
+The Twilight Temple
+
 Tier 11:
 
-Infested Valley Map
+Gardens
 
-Dig Map
+Vaal Pyramid
 
-Lair Map
+Tower
 
-Malformation Map
+Lair
 
-Siege Map
+Caldera
 
-Gardens Map
+Park
 
-Crimson Temple Map
+Shrine
 
-Precinct Map
+Palace
 
-Colonnade Map
+Sunken City
 
-Museum Map
-
-The Putrid Cloister
-
-Tier 12:
-
-Lava Lake Map
-
-Cemetery Map
-
-Vaal Pyramid Map
-
-Park Map
-
-Shipyard Map
-
-Core Map
-
-Carcass Map
-
-Canyon Map
-
-Colosseum Map
-
-Hallowed Ground
+Reef
 
 Vaults of Atziri
 
+Tier 12:
+
+Courthouse
+
+Cemetery
+
+Shipyard
+
+Belfry
+
+Crystal Ore
+
+Malformation
+
+Desert Spring
+
+Plaza
+
+Dig
+
+Hallowed Ground
+
 Tier 13:
 
-Tower Map
+Infested Valley
 
-Sunken City Map
+Museum
 
-Defiled Cathedral Map
+Wasteland
 
-Belfry Map
+Precinct
 
-Coves Map
+Orchard
 
-Shrine Map
+Acid Caverns
 
-Plaza Map
+Crimson Temple
 
-Terrace Map
+Basilica
 
-Reef Map
+Carcass
+
+The Putrid Cloister
 
 Tier 14:
 
-Primordial Blocks Map
+Defiled Cathedral
 
-Orchard Map
+Summit
 
-Wasteland Map
+Primordial Blocks
 
-Crystal Ore Map
+Terrace
 
-Courthouse Map
+Core
 
-Basilica Map
+Colosseum
 
-Dark Forest Map
+Lava Lake
 
 Tier 15:
 
-Summit Map
+Canyon
 
-Caldera Map
+Siege
 
-Acid Caverns Map
+Colonnade
 
-Desert Spring Map
+Coves
 
-Palace Map
+Dark Forest
 
 Tier 16:
 
-Vaal Temple Map
+Pit of the Chimera
 
-Forge of the Phoenix Map
+Lair of the Hydra
 
-Maze of the Minotaur Map
+Maze of the Minotaur
 
-Pit of the Chimera Map
+Forge of the Phoenix
 
-Lair of the Hydra Map`).forEach(change => {
+Vaal Temple`).forEach(change => {
   console.log(change);
   console.log('');
 });

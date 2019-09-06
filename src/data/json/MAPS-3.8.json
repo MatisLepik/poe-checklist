@@ -1,0 +1,1251 @@
+{
+  "version": 3.8,
+  "list": [
+    {
+      "name": "Iceberg Map",
+      "tier": 10,
+      "isUnique": false,
+      "level": 77,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "Cursed Crypt Map",
+      "tier": 4,
+      "isUnique": false,
+      "level": 71,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "Fungal Hollow Map",
+      "tier": 3,
+      "isUnique": false,
+      "level": 70,
+      "isOnAtlas": true,
+      "releaseVersion": 3.5
+    },
+    {
+      "name": "Alleyways Map",
+      "tier": 2,
+      "isUnique": false,
+      "level": 69,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "The Coward's Trial",
+      "tier": 4,
+      "isUnique": true,
+      "level": 71,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Ramparts Map",
+      "tier": 3,
+      "isUnique": false,
+      "level": 70,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Dungeon Map",
+      "tier": 9,
+      "isUnique": false,
+      "level": 76,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Excavation Map",
+      "tier": 2,
+      "isUnique": false,
+      "level": 69,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Peninsula Map",
+      "tier": 5,
+      "isUnique": false,
+      "level": 72,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Strand Map",
+      "tier": 3,
+      "isUnique": false,
+      "level": 70,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Haunted Mansion Map",
+      "tier": 5,
+      "isUnique": false,
+      "level": 72,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "Whakawairua Tuahu",
+      "tier": 3,
+      "isUnique": true,
+      "level": 70,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Atoll Map",
+      "tier": 8,
+      "isUnique": false,
+      "level": 75,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Channel Map",
+      "tier": 4,
+      "isUnique": false,
+      "level": 71,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Arid Lake Map",
+      "tier": 4,
+      "isUnique": false,
+      "level": 71,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Desert Map",
+      "tier": 3,
+      "isUnique": false,
+      "level": 70,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Barrows Map",
+      "tier": 4,
+      "isUnique": false,
+      "level": 71,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Spider Lair Map",
+      "tier": 3,
+      "isUnique": false,
+      "level": 70,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Jungle Valley Map",
+      "tier": 1,
+      "isUnique": false,
+      "level": 68,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Maze Map",
+      "tier": 6,
+      "isUnique": false,
+      "level": 73,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Ashen Wood Map",
+      "tier": 3,
+      "isUnique": false,
+      "level": 70,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Leyline Map",
+      "tier": 4,
+      "isUnique": false,
+      "level": 71,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "Esh's Breachstone",
+      "tier": 0,
+      "isUnique": false,
+      "level": 70,
+      "isOnAtlas": false
+    },
+    {
+      "name": "Tul's Breachstone",
+      "tier": 0,
+      "isUnique": false,
+      "level": 70,
+      "isOnAtlas": false
+    },
+    {
+      "name": "The Apex of Sacrifice",
+      "tier": 0,
+      "isUnique": false,
+      "level": 70,
+      "isOnAtlas": false
+    },
+    {
+      "name": "Xoph's Breachstone",
+      "tier": 0,
+      "isUnique": false,
+      "level": 70,
+      "isOnAtlas": false
+    },
+    {
+      "name": "Doryani's Machinarium",
+      "tier": 6,
+      "isUnique": true,
+      "level": 73,
+      "isOnAtlas": true,
+      "releaseVersion": 3.4
+    },
+    {
+      "name": "Maelström of Chaos",
+      "tier": 8,
+      "isUnique": true,
+      "level": 75,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Flooded Mine Map",
+      "tier": 4,
+      "isUnique": false,
+      "level": 71,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "Armoury Map",
+      "tier": 2,
+      "isUnique": false,
+      "level": 69,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Beach Map",
+      "tier": 5,
+      "isUnique": false,
+      "level": 72,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Glacier Map",
+      "tier": 5,
+      "isUnique": false,
+      "level": 72,
+      "isOnAtlas": true,
+      "releaseVersion": 3.5
+    },
+    {
+      "name": "Lookout Map",
+      "tier": 5,
+      "isUnique": false,
+      "level": 72,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "City Square Map",
+      "tier": 5,
+      "isUnique": false,
+      "level": 72,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "Mausoleum Map",
+      "tier": 3,
+      "isUnique": false,
+      "level": 70,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "Port Map",
+      "tier": 7,
+      "isUnique": false,
+      "level": 74,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Underground Sea Map",
+      "tier": 7,
+      "isUnique": false,
+      "level": 74,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Arcade Map",
+      "tier": 1,
+      "isUnique": false,
+      "level": 68,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Oba's Cursed Trove",
+      "tier": 7,
+      "isUnique": true,
+      "level": 74,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Pen Map",
+      "tier": 3,
+      "isUnique": false,
+      "level": 70,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "Thicket Map",
+      "tier": 5,
+      "isUnique": false,
+      "level": 72,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Cage Map",
+      "tier": 2,
+      "isUnique": false,
+      "level": 69,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "Graveyard Map",
+      "tier": 8,
+      "isUnique": false,
+      "level": 75,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Grotto Map",
+      "tier": 5,
+      "isUnique": false,
+      "level": 72,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Courtyard Map",
+      "tier": 9,
+      "isUnique": false,
+      "level": 76,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Crater Map",
+      "tier": 4,
+      "isUnique": false,
+      "level": 71,
+      "isOnAtlas": true,
+      "releaseVersion": 3.5
+    },
+    {
+      "name": "Marshes Map",
+      "tier": 5,
+      "isUnique": false,
+      "level": 72,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Sulphur Vents Map",
+      "tier": 2,
+      "isUnique": false,
+      "level": 69,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "Ancient City Map",
+      "tier": 7,
+      "isUnique": false,
+      "level": 74,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "The Beachhead",
+      "tier": 5,
+      "isUnique": true,
+      "level": 72,
+      "isOnAtlas": false
+    },
+    {
+      "name": "The Vinktar Square",
+      "tier": 9,
+      "isUnique": true,
+      "level": 76,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Residence Map",
+      "tier": 6,
+      "isUnique": false,
+      "level": 73,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Temple Map",
+      "tier": 8,
+      "isUnique": false,
+      "level": 75,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Primordial Pool Map",
+      "tier": 10,
+      "isUnique": false,
+      "level": 77,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Promenade Map",
+      "tier": 9,
+      "isUnique": false,
+      "level": 76,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Sepulchre Map",
+      "tier": 8,
+      "isUnique": false,
+      "level": 75,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "Vault Map",
+      "tier": 6,
+      "isUnique": false,
+      "level": 73,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Pit Map",
+      "tier": 8,
+      "isUnique": false,
+      "level": 75,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Burial Chambers Map",
+      "tier": 4,
+      "isUnique": false,
+      "level": 71,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Lair Map",
+      "tier": 11,
+      "isUnique": false,
+      "level": 78,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Necropolis Map",
+      "tier": 7,
+      "isUnique": false,
+      "level": 74,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Overgrown Shrine Map",
+      "tier": 6,
+      "isUnique": false,
+      "level": 73,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Hall of Grandmasters",
+      "tier": 9,
+      "isUnique": true,
+      "level": 76,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Acton's Nightmare",
+      "tier": 6,
+      "isUnique": true,
+      "level": 73,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Death and Taxes",
+      "tier": 7,
+      "isUnique": true,
+      "level": 74,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Bone Crypt Map",
+      "tier": 6,
+      "isUnique": false,
+      "level": 73,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "Academy Map",
+      "tier": 10,
+      "isUnique": false,
+      "level": 77,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Fields Map",
+      "tier": 4,
+      "isUnique": false,
+      "level": 71,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "Bazaar Map",
+      "tier": 7,
+      "isUnique": false,
+      "level": 74,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Cells Map",
+      "tier": 8,
+      "isUnique": false,
+      "level": 75,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Geode Map",
+      "tier": 6,
+      "isUnique": false,
+      "level": 73,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "Ghetto Map",
+      "tier": 6,
+      "isUnique": false,
+      "level": 73,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Mud Geyser Map",
+      "tier": 9,
+      "isUnique": false,
+      "level": 76,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Mineral Pools Map",
+      "tier": 9,
+      "isUnique": false,
+      "level": 76,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Shore Map",
+      "tier": 8,
+      "isUnique": false,
+      "level": 75,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Estuary Map",
+      "tier": 6,
+      "isUnique": false,
+      "level": 73,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Pier Map",
+      "tier": 1,
+      "isUnique": false,
+      "level": 68,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Spider Forest Map",
+      "tier": 7,
+      "isUnique": false,
+      "level": 74,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Olmec's Sanctum",
+      "tier": 6,
+      "isUnique": true,
+      "level": 73,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Mao Kun",
+      "tier": 8,
+      "isUnique": true,
+      "level": 75,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Lighthouse Map",
+      "tier": 6,
+      "isUnique": false,
+      "level": 73,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "Phantasmagoria Map",
+      "tier": 8,
+      "isUnique": false,
+      "level": 75,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Volcano Map",
+      "tier": 8,
+      "isUnique": false,
+      "level": 75,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Conservatory Map",
+      "tier": 7,
+      "isUnique": false,
+      "level": 74,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "Dunes Map",
+      "tier": 10,
+      "isUnique": false,
+      "level": 77,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Lava Chamber Map",
+      "tier": 10,
+      "isUnique": false,
+      "level": 77,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "Toxic Sewer Map",
+      "tier": 10,
+      "isUnique": false,
+      "level": 77,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "Orchard Map",
+      "tier": 13,
+      "isUnique": false,
+      "level": 80,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Cemetery Map",
+      "tier": 12,
+      "isUnique": false,
+      "level": 79,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Waterways Map",
+      "tier": 9,
+      "isUnique": false,
+      "level": 76,
+      "isOnAtlas": true
+    },
+    {
+      "name": "The Pale Court",
+      "tier": 0,
+      "isUnique": false,
+      "level": 75,
+      "isOnAtlas": false
+    },
+    {
+      "name": "Uul-Netol's Breachstone",
+      "tier": 0,
+      "isUnique": false,
+      "level": 75,
+      "isOnAtlas": false
+    },
+    {
+      "name": "Hallowed Ground",
+      "tier": 12,
+      "isUnique": true,
+      "level": 79,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Pillars of Arun",
+      "tier": 10,
+      "isUnique": true,
+      "level": 77,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "Untainted Paradise",
+      "tier": 8,
+      "isUnique": true,
+      "level": 75,
+      "isOnAtlas": false
+    },
+    {
+      "name": "Vaal Pyramid Map",
+      "tier": 11,
+      "isUnique": false,
+      "level": 78,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Canyon Map",
+      "tier": 15,
+      "isUnique": false,
+      "level": 82,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Underground River Map",
+      "tier": 8,
+      "isUnique": false,
+      "level": 75,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Laboratory Map",
+      "tier": 9,
+      "isUnique": false,
+      "level": 76,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "Museum Map",
+      "tier": 13,
+      "isUnique": false,
+      "level": 80,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Tropical Island Map",
+      "tier": 3,
+      "isUnique": false,
+      "level": 70,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Coral Ruins Map",
+      "tier": 9,
+      "isUnique": false,
+      "level": 76,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "Castle Ruins Map",
+      "tier": 9,
+      "isUnique": false,
+      "level": 76,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Villa Map",
+      "tier": 7,
+      "isUnique": false,
+      "level": 74,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Caer Blaidd, Wolfpack's Den",
+      "tier": 8,
+      "isUnique": true,
+      "level": 75,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Vaults of Atziri",
+      "tier": 11,
+      "isUnique": true,
+      "level": 78,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Poorjoy's Asylum",
+      "tier": 8,
+      "isUnique": true,
+      "level": 75,
+      "isOnAtlas": true
+    },
+    {
+      "name": "The Putrid Cloister",
+      "tier": 13,
+      "isUnique": true,
+      "level": 80,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Wharf Map",
+      "tier": 1,
+      "isUnique": false,
+      "level": 68,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Arachnid Nest Map",
+      "tier": 8,
+      "isUnique": false,
+      "level": 75,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Overgrown Ruin Map",
+      "tier": 10,
+      "isUnique": false,
+      "level": 77,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Moon Temple Map",
+      "tier": 10,
+      "isUnique": false,
+      "level": 77,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "Relic Chambers Map",
+      "tier": 5,
+      "isUnique": false,
+      "level": 72,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "Scriptorium Map",
+      "tier": 9,
+      "isUnique": false,
+      "level": 76,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Plateau Map",
+      "tier": 10,
+      "isUnique": false,
+      "level": 77,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Chateau Map",
+      "tier": 7,
+      "isUnique": false,
+      "level": 74,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Factory Map",
+      "tier": 7,
+      "isUnique": false,
+      "level": 74,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Mesa Map",
+      "tier": 2,
+      "isUnique": false,
+      "level": 69,
+      "isOnAtlas": true
+    },
+    {
+      "name": "The Twilight Temple",
+      "tier": 10,
+      "isUnique": true,
+      "level": 77,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "The Beachhead",
+      "tier": 10,
+      "isUnique": true,
+      "level": 77,
+      "isOnAtlas": false
+    },
+    {
+      "name": "Perandus Manor",
+      "tier": 7,
+      "isUnique": true,
+      "level": 74,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Infested Valley Map",
+      "tier": 13,
+      "isUnique": false,
+      "level": 80,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "Wasteland Map",
+      "tier": 13,
+      "isUnique": false,
+      "level": 80,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Arena Map",
+      "tier": 9,
+      "isUnique": false,
+      "level": 76,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Coves Map",
+      "tier": 15,
+      "isUnique": false,
+      "level": 82,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Arachnid Tomb Map",
+      "tier": 4,
+      "isUnique": false,
+      "level": 71,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Bog Map",
+      "tier": 10,
+      "isUnique": false,
+      "level": 77,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Arsenal Map",
+      "tier": 6,
+      "isUnique": false,
+      "level": 73,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Dig Map",
+      "tier": 12,
+      "isUnique": false,
+      "level": 79,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "Basilica Map",
+      "tier": 13,
+      "isUnique": false,
+      "level": 80,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "Palace Map",
+      "tier": 11,
+      "isUnique": false,
+      "level": 78,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Desert Spring Map",
+      "tier": 12,
+      "isUnique": false,
+      "level": 79,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "Precinct Map",
+      "tier": 13,
+      "isUnique": false,
+      "level": 80,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Crystal Ore Map",
+      "tier": 12,
+      "isUnique": false,
+      "level": 79,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Malformation Map",
+      "tier": 12,
+      "isUnique": false,
+      "level": 79,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Acid Caverns Map",
+      "tier": 13,
+      "isUnique": false,
+      "level": 80,
+      "isOnAtlas": true,
+      "releaseVersion": 3.5
+    },
+    {
+      "name": "Reef Map",
+      "tier": 11,
+      "isUnique": false,
+      "level": 78,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Courthouse Map",
+      "tier": 12,
+      "isUnique": false,
+      "level": 79,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "Carcass Map",
+      "tier": 13,
+      "isUnique": false,
+      "level": 80,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "Sunken City Map",
+      "tier": 11,
+      "isUnique": false,
+      "level": 78,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "Terrace Map",
+      "tier": 14,
+      "isUnique": false,
+      "level": 81,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Shipyard Map",
+      "tier": 12,
+      "isUnique": false,
+      "level": 79,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Gardens Map",
+      "tier": 11,
+      "isUnique": false,
+      "level": 78,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "Park Map",
+      "tier": 11,
+      "isUnique": false,
+      "level": 78,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "Siege Map",
+      "tier": 15,
+      "isUnique": false,
+      "level": 82,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "Colonnade Map",
+      "tier": 15,
+      "isUnique": false,
+      "level": 82,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Colosseum Map",
+      "tier": 14,
+      "isUnique": false,
+      "level": 81,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Crimson Temple Map",
+      "tier": 13,
+      "isUnique": false,
+      "level": 80,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "Summit Map",
+      "tier": 14,
+      "isUnique": false,
+      "level": 81,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "Tower Map",
+      "tier": 11,
+      "isUnique": false,
+      "level": 78,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Chayula's Breachstone",
+      "tier": 0,
+      "isUnique": false,
+      "level": 80,
+      "isOnAtlas": false
+    },
+    {
+      "name": "The Alluring Abyss",
+      "tier": 0,
+      "isUnique": false,
+      "level": 80,
+      "isOnAtlas": false
+    },
+    {
+      "name": "Belfry Map",
+      "tier": 12,
+      "isUnique": false,
+      "level": 79,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "Plaza Map",
+      "tier": 12,
+      "isUnique": false,
+      "level": 79,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Ivory Temple Map",
+      "tier": 3,
+      "isUnique": false,
+      "level": 70,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Caldera Map",
+      "tier": 11,
+      "isUnique": false,
+      "level": 78,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "Racecourse Map",
+      "tier": 6,
+      "isUnique": false,
+      "level": 73,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Shrine Map",
+      "tier": 11,
+      "isUnique": false,
+      "level": 78,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Primordial Blocks Map",
+      "tier": 14,
+      "isUnique": false,
+      "level": 81,
+      "isOnAtlas": true,
+      "releaseVersion": 3.5
+    },
+    {
+      "name": "Waste Pool Map",
+      "tier": 7,
+      "isUnique": false,
+      "level": 74,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Defiled Cathedral Map",
+      "tier": 14,
+      "isUnique": false,
+      "level": 81,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "Core Map",
+      "tier": 14,
+      "isUnique": false,
+      "level": 81,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Dark Forest Map",
+      "tier": 15,
+      "isUnique": false,
+      "level": 82,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Lava Lake Map",
+      "tier": 14,
+      "isUnique": false,
+      "level": 81,
+      "isOnAtlas": true,
+      "releaseVersion": 3.1
+    },
+    {
+      "name": "The Beachhead",
+      "tier": 15,
+      "isUnique": true,
+      "level": 82,
+      "isOnAtlas": false
+    },
+    {
+      "name": "Forge of the Phoenix Map",
+      "tier": 16,
+      "isUnique": false,
+      "level": 83,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Lair of the Hydra Map",
+      "tier": 16,
+      "isUnique": false,
+      "level": 83,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Maze of the Minotaur Map",
+      "tier": 16,
+      "isUnique": false,
+      "level": 83,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Pit of the Chimera Map",
+      "tier": 16,
+      "isUnique": false,
+      "level": 83,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Vaal Temple Map",
+      "tier": 16,
+      "isUnique": false,
+      "level": 83,
+      "isOnAtlas": true
+    },
+    {
+      "name": "The Shaper's Realm",
+      "tier": 17,
+      "isUnique": false,
+      "level": 84,
+      "isOnAtlas": true
+    }
+  ]
+}
