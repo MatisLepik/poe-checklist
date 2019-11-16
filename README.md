@@ -1,6 +1,7 @@
 # PoE Checklist
 
-** Note: I'm no longer maintaining this website. ** It sounds like PoE 3.9 will change the map system substantially, so the current system would need to be rethought. Feel free to fork this repository and rehost it if you wish. The map screenshots at /src/copy/maps might still be useful.
+**Note: I'm no longer maintaining this website.**
+It sounds like PoE 3.9 will change the map system substantially, so the current system would need to be rethought. Feel free to fork this repository and rehost it if you wish. The map screenshots at /src/copy/maps might still be useful.
 
 ___
 
