@@ -12,6 +12,7 @@ function getMapList() {
     }, {});
 }
 
-module.exports = Object.assign({}, getClientEnvironment('').stringified, {
-  __MAP_PICTURES__: JSON.stringify(getMapList()),
-});
+module.exports = publicUrl =>
+  Object.assign({}, getClientEnvironment(publicUrl || '').stringified, {
+    __MAP_PICTURES__: JSON.stringify(getMapList()),
+  });
