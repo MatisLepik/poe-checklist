@@ -2,6 +2,7 @@
   "name": "poe-checklist",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "https://matislepik.github.io/poe-checklist",
   "scripts": {
     "start": "node scripts/start.js",
     "dev": "npm run start",
