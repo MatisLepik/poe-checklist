@@ -47,7 +47,7 @@ export default class MapPictureModal extends React.Component {
         <SpinnerContainer>
           <Spinner />
         </SpinnerContainer>
-        <Img src={src} alt="Map" />
+        <Img src={`${process.env.PUBLIC_URL}${src}`} alt="Map" />
       </Modal>
     );
   }
