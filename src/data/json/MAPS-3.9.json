@@ -1,0 +1,850 @@
+{
+  "version": 3.9,
+  "list": [
+    {
+      "name": "Iceberg Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Cursed Crypt Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Fungal Hollow Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Alleyways Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "The Coward's Trial",
+      "isUnique": true,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Ramparts Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Dungeon Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Excavation Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Peninsula Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Strand Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Haunted Mansion Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Whakawairua Tuahu",
+      "isUnique": true,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Atoll Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Channel Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Arid Lake Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Desert Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Barrows Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Spider Lair Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Jungle Valley Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Maze Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Ashen Wood Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Leyline Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Esh's Breachstone",
+      "isUnique": false,
+      "isOnAtlas": false
+    },
+    {
+      "name": "Tul's Breachstone",
+      "isUnique": false,
+      "isOnAtlas": false
+    },
+    {
+      "name": "The Apex of Sacrifice",
+      "isUnique": false,
+      "isOnAtlas": false
+    },
+    {
+      "name": "Xoph's Breachstone",
+      "isUnique": false,
+      "isOnAtlas": false
+    },
+    {
+      "name": "Doryani's Machinarium",
+      "isUnique": true,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Maelström of Chaos",
+      "isUnique": true,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Flooded Mine Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Armoury Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Beach Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Glacier Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Lookout Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "City Square Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Mausoleum Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Port Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Underground Sea Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Arcade Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Oba's Cursed Trove",
+      "isUnique": true,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Pen Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Thicket Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Cage Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Graveyard Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Grotto Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Courtyard Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Crater Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Marshes Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Sulphur Vents Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Ancient City Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "The Vinktar Square",
+      "isUnique": true,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Residence Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Temple Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Primordial Pool Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Promenade Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Sepulchre Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Vault Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Pit Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Burial Chambers Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Lair Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Necropolis Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Overgrown Shrine Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Hall of Grandmasters",
+      "isUnique": true,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Acton's Nightmare",
+      "isUnique": true,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Death and Taxes",
+      "isUnique": true,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Bone Crypt Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Academy Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Fields Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Bazaar Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Cells Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Geode Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Ghetto Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Mud Geyser Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Mineral Pools Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Shore Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Estuary Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Pier Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Spider Forest Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Olmec's Sanctum",
+      "isUnique": true,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Mao Kun",
+      "isUnique": true,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Lighthouse Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Phantasmagoria Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Volcano Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Conservatory Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Dunes Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Lava Chamber Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Toxic Sewer Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Orchard Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Cemetery Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Waterways Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "The Pale Court",
+      "isUnique": false,
+      "isOnAtlas": false
+    },
+    {
+      "name": "Uul-Netol's Breachstone",
+      "isUnique": false,
+      "isOnAtlas": false
+    },
+    {
+      "name": "Hallowed Ground",
+      "isUnique": true,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Pillars of Arun",
+      "isUnique": true,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Untainted Paradise",
+      "isUnique": true,
+      "isOnAtlas": false
+    },
+    {
+      "name": "Vaal Pyramid Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Canyon Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Underground River Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Laboratory Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Museum Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Tropical Island Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Coral Ruins Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Castle Ruins Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Villa Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Caer Blaidd, Wolfpack's Den",
+      "isUnique": true,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Vaults of Atziri",
+      "isUnique": true,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Poorjoy's Asylum",
+      "isUnique": true,
+      "isOnAtlas": true
+    },
+    {
+      "name": "The Putrid Cloister",
+      "isUnique": true,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Wharf Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Arachnid Nest Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Overgrown Ruin Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Moon Temple Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Relic Chambers Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Scriptorium Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Plateau Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Chateau Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Factory Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Mesa Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "The Twilight Temple",
+      "isUnique": true,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Perandus Manor",
+      "isUnique": true,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Infested Valley Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Wasteland Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Arena Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Coves Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Arachnid Tomb Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Bog Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Arsenal Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Dig Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Basilica Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Palace Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Desert Spring Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Precinct Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Crystal Ore Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Malformation Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Acid Caverns Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Reef Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Courthouse Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Carcass Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Sunken City Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Terrace Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Shipyard Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Gardens Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Park Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Siege Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Colonnade Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Colosseum Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Crimson Temple Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Summit Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Tower Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Chayula's Breachstone",
+      "isUnique": false,
+      "isOnAtlas": false
+    },
+    {
+      "name": "The Alluring Abyss",
+      "isUnique": false,
+      "isOnAtlas": false
+    },
+    {
+      "name": "Belfry Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Plaza Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Ivory Temple Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Caldera Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Racecourse Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Shrine Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Primordial Blocks Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Waste Pool Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Defiled Cathedral Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Core Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Dark Forest Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Lava Lake Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "The Beachhead",
+      "isUnique": true,
+      "isOnAtlas": false
+    },
+    {
+      "name": "Forge of the Phoenix Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Lair of the Hydra Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Maze of the Minotaur Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Pit of the Chimera Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "Vaal Temple Map",
+      "isUnique": false,
+      "isOnAtlas": true
+    },
+    {
+      "name": "The Shaper's Realm",
+      "isUnique": false,
+      "isOnAtlas": true
+    }
+  ]
+}

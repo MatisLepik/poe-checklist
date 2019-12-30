@@ -23,7 +23,6 @@ export type Props = {};
 
 const BossName = styled.div`
   font-size: 12px;
-  padding-left: 20px;
 `;
 
 export class PantheonsList extends React.Component {
@@ -43,11 +42,16 @@ export class PantheonsList extends React.Component {
 
   renderEmpty() {
     return (
-      <div css={`text-align: center; width: 100%;`}>
+      <div
+        css={`
+          text-align: center;
+          width: 100%;
+        `}
+      >
         <p>
           <i>
-            No pantheons to show. If you completed them all - congratulations!<br
-            />
+            No pantheons to show. If you completed them all - congratulations!
+            <br />
             <br />
             <small>
               If you want to reset the table, press the X button in the top
@@ -70,7 +74,11 @@ export class PantheonsList extends React.Component {
   };
 
   renderEffects = row => (
-    <div>{row.effects.map((effect, i) => <div key={i}>{effect}</div>)}</div>
+    <div>
+      {row.effects.map((effect, i) => (
+        <div key={i}>{effect}</div>
+      ))}
+    </div>
   );
 
   renderMapName = row => {

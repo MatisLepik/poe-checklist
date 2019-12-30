@@ -1,7 +1,7 @@
 import keyBy from 'lodash/keyBy';
 
 // For this app, we need to keep a unique id for each map, which will be defined as the combination of name-tier-level
-const raw = require('./json/MAPS-3.8.json');
+const raw = require('./json/MAPS-3.9.json');
 const ACTIVE_VERSION = raw.version;
 const MAPS = raw.list.map(map => ({
   ...map,
@@ -40,7 +40,7 @@ const TIER_COLORS = {
 };
 
 function getId(map) {
-  return `${map.name}-${map.tier || 0}-${map.level || 0}`;
+  return map.name;
 }
 
 export { TIER_RANGES, TIER_COLORS, MAPS_BY_NAME, ACTIVE_VERSION };

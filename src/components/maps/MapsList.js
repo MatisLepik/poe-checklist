@@ -13,7 +13,6 @@ import {
 import filterableList from 'src/hoc/filterableList';
 import MapName from 'src/components/maps/MapName';
 import PictureThumbnail from 'src/components/maps/PictureThumbnail';
-import NumberCell from 'src/components/tables/NumberCell';
 import React from 'react';
 import sortableList from 'src/hoc/sortableList';
 import TableCheck from 'src/components/TableCheck';
@@ -87,13 +86,6 @@ export class MapsList extends React.Component {
         }
         cols={[
           {
-            name: 'Tier',
-            key: 'tier',
-            className: 'text-center',
-            component: NumberCell,
-            isSortable: true,
-          },
-          {
             name: 'Pic',
             key: 'picture',
             component: PictureThumbnail,
@@ -108,12 +100,6 @@ export class MapsList extends React.Component {
             name: 'Map',
             key: 'name',
             component: MapName,
-            isSortable: true,
-          },
-          {
-            name: 'Level',
-            key: 'level',
-            className: 'text-center',
             isSortable: true,
           },
           {
