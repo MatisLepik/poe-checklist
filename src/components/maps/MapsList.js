@@ -103,6 +103,18 @@ export class MapsList extends React.Component {
             isSortable: true,
           },
           {
+            name: 'Region',
+            key: 'region',
+            headingClass: css`
+              justify-content: center;
+            `,
+            className: css`
+              white-space: nowrap;
+              text-align: center;
+            `,
+            isSortable: true,
+          },
+          {
             name: this.renderClearTable,
             className: 'text-center',
             headingClass: css`

@@ -4,112 +4,134 @@
     {
       "name": "Iceberg Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Tirn's End"
     },
     {
       "name": "Cursed Crypt Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Tirn's End"
     },
     {
       "name": "Fungal Hollow Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Glennach Cairns"
     },
     {
       "name": "Alleyways Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Tirn's End"
     },
     {
       "name": "The Coward's Trial",
       "isUnique": true,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Tirn's End"
     },
     {
       "name": "Ramparts Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Glennach Cairns"
     },
     {
       "name": "Dungeon Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Glennach Cairns"
     },
     {
       "name": "Excavation Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Glennach Cairns"
     },
     {
       "name": "Peninsula Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Valdo's Rest"
     },
     {
       "name": "Strand Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Tirn's End"
     },
     {
       "name": "Haunted Mansion Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Proxima"
     },
     {
       "name": "Whakawairua Tuahu",
       "isUnique": true,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Tirn's End"
     },
     {
       "name": "Atoll Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Tirn's End"
     },
     {
       "name": "Channel Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Glennach Cairns"
     },
     {
       "name": "Arid Lake Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Proxima"
     },
     {
       "name": "Desert Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Proxima"
     },
     {
       "name": "Barrows Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Ejoris"
     },
     {
       "name": "Spider Lair Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Glennach Cairns"
     },
     {
       "name": "Jungle Valley Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Proxima"
     },
     {
       "name": "Maze Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Proxima"
     },
     {
       "name": "Ashen Wood Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Proxima"
     },
     {
       "name": "Leyline Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Haewark Hamlet"
     },
     {
       "name": "Esh's Breachstone",
@@ -134,317 +156,380 @@
     {
       "name": "Doryani's Machinarium",
       "isUnique": true,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Proxima"
     },
     {
       "name": "Maelström of Chaos",
       "isUnique": true,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Tirn's End"
     },
     {
       "name": "Flooded Mine Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Glennach Cairns"
     },
     {
       "name": "Armoury Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Glennach Cairns"
     },
     {
       "name": "Beach Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Glennach Cairns"
     },
     {
       "name": "Glacier Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Glennach Cairns"
     },
     {
       "name": "Lookout Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Valdo's Rest"
     },
     {
       "name": "City Square Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Tirn's End"
     },
     {
       "name": "Mausoleum Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Proxima"
     },
     {
       "name": "Port Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Proxima"
     },
     {
       "name": "Underground Sea Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Proxima"
     },
     {
       "name": "Arcade Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "New Vastir"
     },
     {
       "name": "Oba's Cursed Trove",
       "isUnique": true,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Proxima"
     },
     {
       "name": "Pen Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Glennach Cairns"
     },
     {
       "name": "Thicket Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Ejoris"
     },
     {
       "name": "Cage Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "New Vastir"
     },
     {
       "name": "Graveyard Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Valdo's Rest"
     },
     {
       "name": "Grotto Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Haewark Hamlet"
     },
     {
       "name": "Courtyard Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "New Vastir"
     },
     {
       "name": "Crater Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Valdo's Rest"
     },
     {
       "name": "Marshes Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Glennach Cairns"
     },
     {
       "name": "Sulphur Vents Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Glennach Cairns"
     },
     {
       "name": "Ancient City Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lira Arthain"
     },
     {
       "name": "The Vinktar Square",
       "isUnique": true,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "New Vastir"
     },
     {
       "name": "Residence Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Proxima"
     },
     {
       "name": "Temple Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Tirn's End"
     },
     {
       "name": "Primordial Pool Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Tirn's End"
     },
     {
       "name": "Promenade Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Valdo's Rest"
     },
     {
       "name": "Sepulchre Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lira Arthain"
     },
     {
       "name": "Vault Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Glennach Cairns"
     },
     {
       "name": "Pit Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Ejoris"
     },
     {
       "name": "Burial Chambers Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Valdo's Rest"
     },
     {
       "name": "Lair Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Ejoris"
     },
     {
       "name": "Necropolis Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Tirn's End"
     },
     {
       "name": "Overgrown Shrine Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Valdo's Rest"
     },
     {
       "name": "Hall of Grandmasters",
       "isUnique": true,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Valdo's Rest"
     },
     {
       "name": "Acton's Nightmare",
       "isUnique": true,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Valdo's Rest"
     },
     {
       "name": "Death and Taxes",
       "isUnique": true,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Tirn's End"
     },
     {
       "name": "Bone Crypt Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Ejoris"
     },
     {
       "name": "Academy Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Haewark Hamlet"
     },
     {
       "name": "Fields Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Proxima"
     },
     {
       "name": "Bazaar Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Proxima"
     },
     {
       "name": "Cells Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Glennach Cairns"
     },
     {
       "name": "Geode Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lira Arthain"
     },
     {
       "name": "Ghetto Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Tirn's End"
     },
     {
       "name": "Mud Geyser Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Valdo's Rest"
     },
     {
       "name": "Mineral Pools Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Valdo's Rest"
     },
     {
       "name": "Shore Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Glennach Cairns"
     },
     {
       "name": "Estuary Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lira Arthain"
     },
     {
       "name": "Pier Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Valdo's Rest"
     },
     {
       "name": "Spider Forest Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Tirn's End"
     },
     {
       "name": "Olmec's Sanctum",
       "isUnique": true,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Ejoris"
     },
     {
       "name": "Mao Kun",
       "isUnique": true,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Glennach Cairns"
     },
     {
       "name": "Lighthouse Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Valdo's Rest"
     },
     {
       "name": "Phantasmagoria Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Haewark Hamlet"
     },
     {
       "name": "Volcano Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Proxima"
     },
     {
       "name": "Conservatory Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Haewark Hamlet"
     },
     {
       "name": "Dunes Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Proxima"
     },
     {
       "name": "Lava Chamber Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Glennach Cairns"
     },
     {
       "name": "Toxic Sewer Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lira Arthain"
     },
     {
       "name": "Orchard Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Proxima"
     },
     {
       "name": "Cemetery Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Proxima"
     },
     {
       "name": "Waterways Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Tirn's End"
     },
     {
       "name": "The Pale Court",
@@ -459,12 +544,14 @@
     {
       "name": "Hallowed Ground",
       "isUnique": true,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Proxima"
     },
     {
       "name": "Pillars of Arun",
       "isUnique": true,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Proxima"
     },
     {
       "name": "Untainted Paradise",
@@ -474,122 +561,146 @@
     {
       "name": "Vaal Pyramid Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Haewark Hamlet"
     },
     {
       "name": "Canyon Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Ejoris"
     },
     {
       "name": "Underground River Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Proxima"
     },
     {
       "name": "Laboratory Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Tirn's End"
     },
     {
       "name": "Museum Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Tirn's End"
     },
     {
       "name": "Tropical Island Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Tirn's End"
     },
     {
       "name": "Coral Ruins Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Proxima"
     },
     {
       "name": "Castle Ruins Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Haewark Hamlet"
     },
     {
       "name": "Villa Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Valdo's Rest"
     },
     {
       "name": "Caer Blaidd, Wolfpack's Den",
       "isUnique": true,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Proxima"
     },
     {
       "name": "Vaults of Atziri",
       "isUnique": true,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Haewark Hamlet"
     },
     {
       "name": "Poorjoy's Asylum",
       "isUnique": true,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Tirn's End"
     },
     {
       "name": "The Putrid Cloister",
       "isUnique": true,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Tirn's End"
     },
     {
       "name": "Wharf Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Tirn's End"
     },
     {
       "name": "Arachnid Nest Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Ejoris"
     },
     {
       "name": "Overgrown Ruin Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Valdo's Rest"
     },
     {
       "name": "Moon Temple Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "New Vastir"
     },
     {
       "name": "Relic Chambers Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lira Arthain"
     },
     {
       "name": "Scriptorium Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Valdo's Rest"
     },
     {
       "name": "Plateau Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Proxima"
     },
     {
       "name": "Chateau Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Haewark Hamlet"
     },
     {
       "name": "Factory Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Valdo's Rest"
     },
     {
       "name": "Mesa Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Valdo's Rest"
     },
     {
       "name": "The Twilight Temple",
       "isUnique": true,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "New Vastir"
     },
     {
       "name": "Perandus Manor",
@@ -599,147 +710,176 @@
     {
       "name": "Infested Valley Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Glennach Cairns"
     },
     {
       "name": "Wasteland Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Valdo's Rest"
     },
     {
       "name": "Arena Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Ejoris"
     },
     {
       "name": "Coves Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Glennach Cairns"
     },
     {
       "name": "Arachnid Tomb Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lira Arthain"
     },
     {
       "name": "Bog Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Proxima"
     },
     {
       "name": "Arsenal Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Proxima"
     },
     {
       "name": "Dig Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Haewark Hamlet"
     },
     {
       "name": "Basilica Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "New Vastir"
     },
     {
       "name": "Palace Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lira Arthain"
     },
     {
       "name": "Desert Spring Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lira Arthain"
     },
     {
       "name": "Precinct Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Haewark Hamlet"
     },
     {
       "name": "Crystal Ore Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Proxima"
     },
     {
       "name": "Malformation Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Haewark Hamlet"
     },
     {
       "name": "Acid Caverns Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "New Vastir"
     },
     {
       "name": "Reef Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Ejoris"
     },
     {
       "name": "Courthouse Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "New Vastir"
     },
     {
       "name": "Carcass Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Ejoris"
     },
     {
       "name": "Sunken City Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "New Vastir"
     },
     {
       "name": "Terrace Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Haewark Hamlet"
     },
     {
       "name": "Shipyard Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Ejoris"
     },
     {
       "name": "Gardens Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lira Arthain"
     },
     {
       "name": "Park Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "New Vastir"
     },
     {
       "name": "Siege Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lira Arthain"
     },
     {
       "name": "Colonnade Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Glennach Cairns"
     },
     {
       "name": "Colosseum Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lira Arthain"
     },
     {
       "name": "Crimson Temple Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Ejoris"
     },
     {
       "name": "Summit Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "New Vastir"
     },
     {
       "name": "Tower Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lira Arthain"
     },
     {
       "name": "Chayula's Breachstone",
@@ -754,62 +894,74 @@
     {
       "name": "Belfry Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Proxima"
     },
     {
       "name": "Plaza Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Glennach Cairns"
     },
     {
       "name": "Ivory Temple Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Proxima"
     },
     {
       "name": "Caldera Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Ejoris"
     },
     {
       "name": "Racecourse Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Glennach Cairns"
     },
     {
       "name": "Shrine Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Haewark Hamlet"
     },
     {
       "name": "Primordial Blocks Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "New Vastir"
     },
     {
       "name": "Waste Pool Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "New Vastir"
     },
     {
       "name": "Defiled Cathedral Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lira Arthain"
     },
     {
       "name": "Core Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Ejoris"
     },
     {
       "name": "Dark Forest Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lira Arthain"
     },
     {
       "name": "Lava Lake Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Lex Ejoris"
     },
     {
       "name": "The Beachhead",
@@ -839,7 +991,8 @@
     {
       "name": "Vaal Temple Map",
       "isUnique": false,
-      "isOnAtlas": true
+      "isOnAtlas": true,
+      "region": "Valdo's Rest"
     },
     {
       "name": "The Shaper's Realm",
