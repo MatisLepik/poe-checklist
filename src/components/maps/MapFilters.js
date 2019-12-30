@@ -4,6 +4,17 @@ import { toggleFilter, FILTER_POOLS } from 'src/redux/modules/filters';
 import Checkbox from 'src/components/forms/Checkbox';
 import InputWrapper from 'src/components/styled/InputWrapper';
 import React from 'react';
+import styled from 'react-emotion';
+
+const Grid = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+
+  > * {
+    flex-basis: 25%;
+  }
+`;
 
 export type Props = {};
 
@@ -15,7 +26,7 @@ export class MapFilters extends React.Component {
 
   render() {
     return (
-      <div>
+      <Grid>
         <InputWrapper>
           <Checkbox
             name="hideCheckedMaps"
@@ -43,7 +54,7 @@ export class MapFilters extends React.Component {
             Hide non-atlas maps
           </Checkbox>
         </InputWrapper>
-      </div>
+      </Grid>
     );
   }
 }

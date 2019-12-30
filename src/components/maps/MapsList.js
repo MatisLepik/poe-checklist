@@ -138,6 +138,19 @@ export default compose(
       if (filters.hideNonAtlasMaps && !map.isOnAtlas) return false;
       if (filters.hideUniques && map.isUnique) return false;
 
+      // Regions
+      if (filters.hideHaewarkHamlet && map.region === 'Haewark Hamlet')
+        return false;
+      if (filters.hideTirnsEnd && map.region === "Tirn's End") return false;
+      if (filters.hideLexProxima && map.region === 'Lex Proxima') return false;
+      if (filters.hideLexEjoris && map.region === 'Lex Ejoris') return false;
+      if (filters.hideNewVastir && map.region === 'New Vastir') return false;
+      if (filters.hideGlennachCairns && map.region === 'Glennach Cairns')
+        return false;
+      if (filters.hideValdosRest && map.region === "Valdo's Rest") return false;
+      if (filters.hideLiraArthain && map.region === 'Lira Arthain')
+        return false;
+
       return true;
     },
   }),
