@@ -1,6 +1,6 @@
 # PoE Checklist
 
-This is the source code for [PoE Checklist](https://matislepik.github.io/poe-checklist/) - an interactive Path of Exile checklist for maps, passive quests, lab trials and pantheons.
+This is the source code for PoE Checklist - an interactive tool to help with Path of Exile gameplay. It's no longer maintained, so I've stopped hosting the website.
 
 Path of Exile is an ARPG game made by Grinding Gear Games, [check it out here](http://www.pathofexile.com/).
 
